@@ -1,0 +1,84 @@
+{
+  "regulars": {
+    "links": {
+      "about": "Մեր մասին",
+      "programs": "Ծրագրեր",
+      "contact": "Կապ մեզ Հետ",
+      "courses": "Դասընթացներ"
+    },
+    "button": {
+      "signup": "Գրանցվել",
+      "learn": "Իմանալ ավելին",
+      "see_projects": " Տեսնել Նախագծերը"
+    },
+    "language": {
+      "am": "Հայ ",
+      "en": "Eng",
+      "ru": "Рус"
+    }
+  },
+  "wizzy": {
+    "paints": {
+      "primary": "#C5212C",
+      "secondary": "#72A5DA",
+      "thirdly": "#ED5560"
+    },
+    "hero": {
+      "title": "Երեխաների բի<span class='span_h2-gradient-colors red_'>Zz</span>նես-ակումբ\nՃանաչենք բիզնեսի <span class='span_h2-gradient-colors red_'>Zz</span>իմաստությունը",
+      "paragraph": "Մենք օգնում ենք մեր ուսանողներին դառնալ ավելի հմուտ մասնագետներ այսօր, քան երեկ էին",
+      "carousel": {
+        "1": "Բիզնեսը Մեծ Սպորտում",
+        "2": "Daroink X Wizzy",
+        "3": "Futuris Architects X Wizzy",
+        "4": "Բիզնեսը 4.0",
+        "5": "Dalma X Wizzy"
+      }
+    }
+  },
+  "pulse": {
+    "paints": {
+      "primary": "#F0AE00",
+      "secondary": "#000000",
+      "thirdly": "#ED5560"
+    },
+    "hero": {
+      "title": "Empowering Your Brand's Pulse",
+      "paragraph": "Պատրա՞ստ եք բացահայտել ձեր բիզնեսի ներուժը ապա միացեք մեզ",
+      "carousel": {
+        "1": "Բիզնեսը Մեծ Սպորտում",
+        "2": "Daroink X Wizzy",
+        "3": "Futuris Architects X Wizzy",
+        "4": "Բիզնեսը 4.0",
+        "5": "Dalma X Wizzy"
+      }
+    }
+  },
+  "chroma": {
+    "paints": {
+      "primary": "#F4F4F4",
+      "secondary": "#222222",
+      "thirdly": "#787878"
+    },
+    "hero": {
+      "title": "Inspired by colours.",
+      "paragraph": "Ժամանակն է Chroma-ի հետ Ձեր տանը նոր շունչ հաղորդելու․․․",
+      "right": {
+        "title": "Ինչու՞ դիմել Chroma-ին",
+        "list": {
+          "1": {
+            "title": "եռաչափ մոդելավորում  և վիզուալիզացիա",
+            "paragraph": "Կօգնի պատկերացնել տարածքը ինչպիսի տեսք և զգացողություն կունենա"
+          },
+          "2": {
+            "title": "բնակարանում VR ակնոցով շրջագայություն",
+            "paragraph": "Հնարավորություն է տալիս ուսումնասիրել նախագծերը նախքան դրանք կառուցելը"
+          },
+          "3": {
+            "title": "զեղչով գնումներ",
+            "paragraph": "Մեր գործընկեր խանութ-սրահներից զեղչով գնումներ կատարելու հնարավորություն"
+          }
+        }
+      }
+    }
+  }
+}
