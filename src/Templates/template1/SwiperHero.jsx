@@ -35,7 +35,7 @@ const SwiperHero = ({ codename }) => {
           disableOnInteraction: false,
         }}
         loop={true}
-        speed={1000}
+        speed={2000}
         pagination={true}
         modules={[Autoplay]}
         className="mySwiperHome relative w-full h-full"

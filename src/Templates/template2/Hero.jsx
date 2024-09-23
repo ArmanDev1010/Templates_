@@ -19,7 +19,7 @@ const Hero = ({ codename }) => {
               viewport={{ once: true }}
               transition={{
                 ease: "easeIn",
-                y: { duration: 0.5, delay: 0.3 },
+                y: { duration: 0.5, delay: 0.5 },
                 opacity: { delay: 0.5 },
               }}
               variants={{
@@ -37,8 +37,8 @@ const Hero = ({ codename }) => {
               viewport={{ once: true }}
               transition={{
                 ease: "easeIn",
-                y: { duration: 0.6, delay: 0.59 },
-                opacity: { delay: 0.9 },
+                y: { duration: 0.6, delay: 0.7 },
+                opacity: { delay: 0.7 },
               }}
               variants={{
                 visible: { opacity: 1, y: 0 },

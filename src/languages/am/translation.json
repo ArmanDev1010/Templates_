@@ -9,7 +9,9 @@
     "button": {
       "signup": "Գրանցվել",
       "learn": "Իմանալ ավելին",
-      "see_projects": " Տեսնել Նախագծերը"
+      "see_projects": " Տեսնել Նախագծերը",
+      "see_projects_eng": " See Projects",
+      "learn_eng": "Learn More"
     },
     "language": {
       "am": "Հայ ",
@@ -77,6 +79,26 @@
             "title": "զեղչով գնումներ",
             "paragraph": "Մեր գործընկեր խանութ-սրահներից զեղչով գնումներ կատարելու հնարավորություն"
           }
+        }
+      }
+    }
+  },
+  "mod": {
+    "paints": {
+      "primary": "#F4F4F4",
+      "secondary": "#222222",
+      "thirdly": "#787878"
+    },
+    "hero": {
+      "title": "Comfort & Beauty ",
+      "paragraph": "The mind creates the beautiful, the heart creates the home...",
+      "right": {
+        "list": {
+          "1": "Bedroom",
+          "2": "Kitchen",
+          "3": "Bathroom",
+          "4": "Hallway",
+          "5": "Living Room"
         }
       }
     }

@@ -173,7 +173,8 @@ body {
   right: 0% !important;
 }
 
-.myPartnerSwiper .swiper-wrapper {
+.myPartnerSwiper .swiper-wrapper,
+.scrollDownSwiper .swiper-wrapper {
   -webkit-transition-timing-function: linear !important;
   -o-transition-timing-function: linear !important;
   transition-timing-function: linear !important;
