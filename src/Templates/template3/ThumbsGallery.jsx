@@ -65,7 +65,7 @@ const ThumbsGallery = ({ codename }) => {
           freeMode={true}
           watchSlidesProgress={true}
           modules={[Navigation, Thumbs]}
-          className="mySwiper w-full h-full bg-black cursor-pointer"
+          className="mySwiper w-full h-full bg-white cursor-pointer"
         >
           {["4", "5", "3", "2", "1"].map((text, key) => (
             <SwiperSlide key={key}>

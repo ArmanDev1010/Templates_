@@ -47,15 +47,16 @@ const App = () => {
         }}
       >
         <Routes>
-          <Route path="/template1/">
+          {/* <Route path="/template1/">
             <Route path="" element={<Home codename="wizzy" />} />
           </Route>
           <Route path="/template2/">
             <Route path="" element={<Home2 codename="pulse" />} />
-          </Route>
+          </Route> */}
           <Route path="/template3/">
             {/* <Route path="" element={<Home3 codename="chroma" />} /> */}
-            <Route path="" element={<Home3 codename="mod" />} />
+            {/* <Route path="" element={<Home3 codename="mod" />} /> */}
+            <Route path="" element={<Home3 codename="fly" />} />
           </Route>
         </Routes>
       </MyContext.Provider>

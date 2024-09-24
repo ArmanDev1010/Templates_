@@ -48,9 +48,9 @@ const ScrollDown = ({ codename }) => {
           >
             <div className="w-full h-full transition-bg duration-300 ease-in-out group-hover:scale-[1.1] bg-gray-300">
               <div
-                className="absolute top-12 right-6 rounded-[50px] w-[180px] h-[180px] bg-cover bg-center bg-no-repeat transition duration-300 group-hover:translate-y-5 group-hover:-translate-x-5"
+                className="absolute top-12 right-6 rounded-[50px] w-[180px] h-[180px] bg-white bg-cover bg-center bg-no-repeat transition duration-300 group-hover:translate-y-5 group-hover:-translate-x-5"
                 style={{
-                  backgroundImage: `url(/src/assets/template3/swiper_down/${text}.jpg)`,
+                  backgroundImage: `url(/src/assets/template3/swiper_down/${codename}/${text}.jpg)`,
                 }}
               ></div>
               <h3 className="absolute top-10 left-8 text-4xl font-[500] transition duration-300 group-hover:translate-y-5 group-hover:translate-x-5">
