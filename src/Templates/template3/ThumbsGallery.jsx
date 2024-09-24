@@ -29,7 +29,7 @@ const ThumbsGallery = ({ codename }) => {
         modules={[Autoplay, FreeMode, Thumbs]}
         className="absolute z-[1] top-0 left-0 w-full h-full"
       >
-        {["4", "5", "3", "2", "1"].map((text, key) => (
+        {["1", "2", "3", "4", "5"].map((text, key) => (
           <SwiperSlide key={key}>
             <div
               className="w-full h-full bg-center bg-no-repeat bg-cover"
@@ -65,9 +65,9 @@ const ThumbsGallery = ({ codename }) => {
           freeMode={true}
           watchSlidesProgress={true}
           modules={[Navigation, Thumbs]}
-          className="mySwiper w-full h-full bg-white cursor-pointer"
+          className="mySwiper w-full h-full bg-black cursor-pointer"
         >
-          {["4", "5", "3", "2", "1"].map((text, key) => (
+          {["1", "2", "3", "4", "5"].map((text, key) => (
             <SwiperSlide key={key}>
               <div
                 className="bg-center bg-no-repeat bg-cover w-full h-full absolute top-0 left-0"

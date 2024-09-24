@@ -41,7 +41,7 @@ const ScrollDown = ({ codename }) => {
         modules={[Autoplay]}
         className="scrollDownSwiper w-full h-full"
       >
-        {["1", "2", "3", "4", "5"].map((text, key) => (
+        {["1", "2", "3", "4"].map((text, key) => (
           <SwiperSlide
             key={key}
             className="group relative overflow-hidden rounded-[40px] cursor-pointer"
@@ -56,7 +56,13 @@ const ScrollDown = ({ codename }) => {
               <h3 className="absolute top-10 left-8 text-4xl font-[500] transition duration-300 group-hover:translate-y-5 group-hover:translate-x-5">
                 {t(`${codename}.hero.right.list.${text}`)}
               </h3>
-              <div className="absolute bottom-7 left-5 bg-[#000] text-white w-[250px] py-5 rounded-full transition duration-300 group-hover:bg-white group-hover:-translate-y-5 group-hover:translate-x-5">
+              <div
+                className="absolute bottom-7 left-5 bg-[var(--primary-color)] text-white w-[250px] py-5 rounded-full transition duration-300 group-hover:bg-[var(--secondary-color)] group-hover:-translate-y-5 group-hover:translate-x-5"
+                style={{
+                  "--primary-color": t(`${codename}.paints.primary`),
+                  "--secondary-color": t(`${codename}.paints.secondary`),
+                }}
+              >
                 <div className="relative overflow-hidden text-center text-xl font-[500]">
                   <div className="group-hover:translate-y-[-110%] transition duration-300">
                     {t(`regulars.button.learn_eng`)}

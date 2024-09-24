@@ -23,7 +23,12 @@ const Right = ({ codename }) => {
               className="w-[75px] rotate-[180deg]"
             />
           </div>
-          <div className="bg-black absolute inset-0 w-full h-full duration-300 -translate-x-[101%] bg-primary group-hover:translate-x-0 ease flex justify-center items-center">
+          <div
+            className="bg-[var(--primary-color)] absolute inset-0 w-full h-full duration-300 -translate-x-[101%] bg-primary group-hover:translate-x-0 ease flex justify-center items-center"
+            style={{
+              "--primary-color": t(`${codename}.paints.primary`),
+            }}
+          >
             <img
               src={"/src/assets/arrow_White.png"}
               alt="arrow"

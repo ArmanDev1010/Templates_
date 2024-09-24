@@ -122,5 +122,24 @@
         }
       }
     }
+  },
+  "zenit": {
+    "paints": {
+      "primary": "#1D1D1B",
+      "secondary": "#FDCF18",
+      "thirdly": "#FFFFFF"
+    },
+    "hero": {
+      "title": "Architecture & Interior",
+      "paragraph": "The mind creates the beautiful, the heart creates the home...",
+      "right": {
+        "list": {
+          "1": "Architecture",
+          "2": "Exterior",
+          "3": "Interior",
+          "4": "Public Space"
+        }
+      }
+    }
   }
 }
