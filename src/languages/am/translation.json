@@ -141,5 +141,24 @@
         }
       }
     }
+  },
+  "khar": {
+    "paints": {
+      "primary": "#101010",
+      "secondary": "#C3C1C2",
+      "thirdly": "#787878"
+    },
+    "hero": {
+      "title": "Comfort & Beauty",
+      "paragraph": "Հանգստություն, նրբաճաշակություն և հարմարավետություն...",
+      "right": {
+        "list": {
+          "1": "Bedroom",
+          "2": "House",
+          "3": "Bathroom",
+          "4": "Living Room"
+        }
+      }
+    }
   }
 }
