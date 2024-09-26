@@ -41,7 +41,7 @@ const ScrollDown = ({ codename }) => {
         modules={[Autoplay]}
         className="scrollDownSwiper w-full h-full"
       >
-        {["1", "2", "3", "4"].map((text, key) => (
+        {["1", "2", "3", "4", "5"].map((text, key) => (
           <SwiperSlide
             key={key}
             className="group relative overflow-hidden rounded-[40px] cursor-pointer"
@@ -65,10 +65,10 @@ const ScrollDown = ({ codename }) => {
               >
                 <div className="relative overflow-hidden text-center text-xl font-[500]">
                   <div className="group-hover:translate-y-[-110%] transition duration-300">
-                    {t(`regulars.button.learn_eng`)}
+                    {t(`regulars.button.learn`)}
                   </div>
                   <div className="text-black translate-y-[110%] group-hover:translate-y-[0%] transition duration-300 absolute top-0 bottom-0 left-0 right-0">
-                    {t(`regulars.button.learn_eng`)}
+                    {t(`regulars.button.learn`)}
                   </div>
                 </div>
               </div>

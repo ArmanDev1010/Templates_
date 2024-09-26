@@ -14,9 +14,9 @@ const Right = ({ codename }) => {
         <ScrollDown codename={codename} />
       </div>
       <div className="w-full h-[20%]">
-        <button className="relative group w-full h-full capitilize border-[2px] bg-white border-[#e3e3e3] text-[32px] font-[500]">
+        <button className="relative group w-full h-full capitilize border-[2px] bg-white border-[#e3e3e3] text-[30px] font-[500]">
           <div className="bg-white flex items-center justify-center gap-4">
-            <p>{t(`regulars.button.see_projects_eng`)}</p>
+            <p>{t(`regulars.button.see_projects`)}</p>
             <img
               src={"/src/assets/arrow.png"}
               alt="arrow"

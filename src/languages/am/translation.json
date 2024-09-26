@@ -4,12 +4,16 @@
       "about": "Մեր մասին",
       "programs": "Ծրագրեր",
       "contact": "Կապ մեզ Հետ",
-      "courses": "Դասընթացներ"
+      "courses": "Դասընթացներ",
+      "contact_short": "Կապ",
+      "portfolio": "Պորտֆոլիո",
+      "our_courses": "Մեր Դասընթացները"
     },
     "button": {
       "signup": "Գրանցվել",
       "learn": "Իմանալ ավելին",
       "see_projects": " Տեսնել Նախագծերը",
+      "see_more": "Տեսնել ավելին",
       "see_projects_eng": " See Projects",
       "learn_eng": "Learn More"
     },
@@ -150,14 +154,54 @@
     },
     "hero": {
       "title": "Comfort & Beauty",
-      "paragraph": "Հանգստություն, նրբաճաշակություն և հարմարավետություն...",
+      "paragraph": "Մենք ստեղծում ենք նախագծեր, որոնք ֆունկցիոնալ են, ամուր և էսթետիկ...",
       "right": {
         "list": {
           "1": "Bedroom",
           "2": "House",
           "3": "Bathroom",
-          "4": "Living Room"
+          "4": "Living Room",
+          "5": "Building"
         }
+      }
+    }
+  },
+  "armat": {
+    "paints": {
+      "primary": "#383934",
+      "secondary": "#A06D53",
+      "thirdly": "#ffff"
+    },
+    "hero": {
+      "title": "Building Visions & Creating Reality",
+      "paragraph": "Design Studio & School. Your dream career starts here...",
+      "swiper": {
+        "1": {
+          "top": "House",
+          "bottom": "House Babayan Street"
+        },
+        "2": {
+          "top": "Interior",
+          "bottom": "Interior design Byureghavan"
+        },
+        "3": {
+          "top": "Exterior",
+          "bottom": "Exterior design"
+        },
+        "4": {
+          "top": "Interior",
+          "bottom": "Vahakni residential Community"
+        },
+        "5": {
+          "top": "Exterior",
+          "bottom": "Terrasa Exterior Design"
+        }
+      },
+      "carousel": {
+        "1": "Ինտերիեր Դիզայն (Խմբային)",
+        "2": "էքստերիեր Դիզայն (Խմբային)",
+        "3": "Ինտերիեր Դիզայն (Անհատական)",
+        "4": "էքստերիեր Դիզայն (Անհատական)"
       }
     }
   }

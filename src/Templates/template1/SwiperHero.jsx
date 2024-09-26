@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
+
 import { useTranslation } from "react-i18next";
 
 import { motion } from "framer-motion";
