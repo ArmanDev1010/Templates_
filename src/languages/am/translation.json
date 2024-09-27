@@ -7,7 +7,8 @@
       "courses": "Դասընթացներ",
       "contact_short": "Կապ",
       "portfolio": "Պորտֆոլիո",
-      "our_courses": "Մեր Դասընթացները"
+      "our_courses": "Մեր Դասընթացները",
+      "projects": "Նախագծեր"
     },
     "button": {
       "signup": "Գրանցվել",
@@ -143,6 +144,34 @@
           "3": "Interior",
           "4": "Public Space"
         }
+      },
+      "swiper": {
+        "1": {
+          "top": "Houses",
+          "bottom": "երկհարկանի առանձնատուն"
+        },
+        "2": {
+          "top": "Bedrooms",
+          "bottom": "ննջարան"
+        },
+        "3": {
+          "top": "Living Rooms",
+          "bottom": "հյուրասենյակ"
+        },
+        "4": {
+          "top": "Kitchens",
+          "bottom": "Խոհանոց"
+        },
+        "5": {
+          "top": "Bathrooms",
+          "bottom": "սանհանգույց"
+        }
+      },
+      "carousel": {
+        "1": "Architecture",
+        "2": "Exterior Design",
+        "3": "Interior Design",
+        "4": "Public Space Design"
       }
     }
   },
@@ -173,7 +202,7 @@
       "thirdly": "#ffff"
     },
     "hero": {
-      "title": "Building Visions & Creating Reality",
+      "title": "Building Visions & \nCreating Reality",
       "paragraph": "Design Studio & School. Your dream career starts here...",
       "swiper": {
         "1": {

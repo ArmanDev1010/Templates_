@@ -13,15 +13,15 @@ const Left = ({ codename }) => {
   return (
     <div className="w-1/2 h-full pt-5 px-10 flex flex-col overflow-hidden">
       <div className="flex-[0_1_auto]">
-        <div className="flex justify-between items-center mb-5">
+        <div className="flex justify-between items-center mb-14">
           <img
-            src={`/src/assets/template4/logos/${codename}.png`}
+            src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            style={{ width: "80px", height: "auto" }}
-            className="cursor-pointer"
+            style={{ width: "120px", height: "auto" }}
+            className="cursor-pointer rounded-full"
           />
           <ul className="flex items-center gap-12">
-            {["portfolio", "courses", "contact_short"].map((text, key) => (
+            {["projects", "about", "contact_short"].map((text, key) => (
               <li
                 key={key}
                 className="text-xl font-[500] cursor-pointer translate duration-300 hover:opacity-50"
@@ -46,7 +46,7 @@ const Left = ({ codename }) => {
               visible: { opacity: 1, x: 0 },
               hidden: { opacity: 0, x: -100 },
             }}
-            className="clip_top_bottom text-[4.6rem] leading-[1.5] font-[600] mb-7 capitalize"
+            className="clip_top_bottom text-[4.6rem] leading-[1.5] font-[600] mb-7 capitalize whitespace-pre"
           >
             {t(`${codename}.hero.title`)}
           </motion.h2>
@@ -84,9 +84,9 @@ const Left = ({ codename }) => {
         }}
         className="w-full h-full flex-[1_1_auto] flex flex-col gap-8"
       >
-        <h3 className="clip_top_bottom leading-[1.3] relative left-5 text-3xl font-[500] pointer-events-none before:content-[''] before:absolute before:bg-black before:w-[2px] before:h-[150%] before:top-1/2 before:-translate-y-1/2 before:-left-5">
+        {/* <h3 className="clip_top_bottom leading-[1.3] relative left-5 text-3xl font-[500] pointer-events-none before:content-[''] before:absolute before:bg-black before:w-[2px] before:h-[150%] before:top-1/2 before:-translate-y-1/2 before:-left-5">
           {t(`regulars.links.our_courses`)}
-        </h3>
+        </h3> */}
         <SwiperHero codename={codename} />
       </motion.div>
     </div>

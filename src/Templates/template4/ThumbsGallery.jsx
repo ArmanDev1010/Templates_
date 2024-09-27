@@ -48,7 +48,7 @@ const ThumbsGallery = ({ codename }) => {
                   {t(`${codename}.hero.swiper.${text}.bottom`)}
                 </p>
                 <div
-                  className="group bg-[var(--secondary-color)] text-white cursor-pointer w-[250px] py-5 rounded-full transition duration-300 hover:bg-white hover:-translate-y-3 hover:-translate-x-3"
+                  className="group bg-[var(--secondary-color)] text-black cursor-pointer w-[250px] py-5 rounded-full transition duration-300 hover:bg-white hover:-translate-y-3 hover:-translate-x-3"
                   style={{
                     "--secondary-color": t(`${codename}.paints.secondary`),
                   }}
@@ -81,11 +81,11 @@ const ThumbsGallery = ({ codename }) => {
         {["1", "2", "3", "4", "5"].map((text, key) => (
           <SwiperSlide key={key} className="group p-[1rem] bg-white flex gap-2">
             <div className="relative w-1/2 h-full">
-              <p className="text-3xl font-[500] capitalize pl-2">
+              <p className="text-[25px] leading-[1.3] font-[500] capitalize px-2">
                 {t(`${codename}.hero.swiper.${text}.top`)}
               </p>
               <div
-                className="absolute bottom-0 left-0 bg-[var(--primary-color)] w-[55px] h-[55px] rounded-full text-white text-4xl duration-200 ease group-hover:bg-[var(--secondary-color)] group-hover:-translate-y-2 group-hover:translate-x-2 flex justify-center items-center rotate-[-135deg]"
+                className="absolute bottom-0 left-0 bg-[var(--primary-color)] w-[55px] h-[55px] rounded-full text-white text-4xl duration-200 ease group-hover:bg-[var(--secondary-color)] group-hover:text-black group-hover:-translate-y-2 group-hover:translate-x-2 flex justify-center items-center rotate-[-135deg]"
                 style={{
                   "--primary-color": t(`${codename}.paints.primary`),
                   "--secondary-color": t(`${codename}.paints.secondary`),
