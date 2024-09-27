@@ -13,13 +13,14 @@ const Left = ({ codename }) => {
   return (
     <div className="w-1/2 h-full pt-5 px-10 flex flex-col overflow-hidden">
       <div className="flex-[0_1_auto]">
-        <div className="flex justify-between items-center mb-14">
+        <div className="flex justify-between items-center mb-14 py-7">
           <img
             src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            style={{ width: "120px", height: "auto" }}
-            className="cursor-pointer rounded-full"
+            style={{ width: "140px" }}
+            className="cursor-pointer absolute top-0 left-14"
           />
+          <div className=""></div>
           <ul className="flex items-center gap-12">
             {["projects", "about", "contact_short"].map((text, key) => (
               <li
@@ -46,7 +47,7 @@ const Left = ({ codename }) => {
               visible: { opacity: 1, x: 0 },
               hidden: { opacity: 0, x: -100 },
             }}
-            className="clip_top_bottom text-[4.6rem] leading-[1.5] font-[600] mb-7 capitalize whitespace-pre"
+            className="clip_top_bottom text-[4.6rem] leading-[1.5] font-[600] mb-5 capitalize whitespace-pre"
           >
             {t(`${codename}.hero.title`)}
           </motion.h2>
