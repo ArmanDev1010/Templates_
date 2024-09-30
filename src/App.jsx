@@ -52,18 +52,19 @@ const App = () => {
           </Route>
           <Route path="/template2/">
             <Route path="" element={<Home2 codename="pulse" />} />
-          </Route> 
+          </Route> */}
           <Route path="/template3/">
-            {/* <Route path="" element={<Home3 codename="chroma" />} /> 
-            {/* <Route path="" element={<Home3 codename="mod" />} /> 
-            {/* <Route path="" element={<Home3 codename="fly" />} /> 
-            {/* <Route path="" element={<Home3 codename="zenit" />} /> 
-            {/* <Route path="" element={<Home3 codename="khar" />} /> 
-          </Route>*/}
+            {/* <Route path="" element={<Home3 codename="chroma" />} /> */}
+            {/* <Route path="" element={<Home3 codename="mod" />} /> */}
+            {/* <Route path="" element={<Home3 codename="fly" />} /> */}
+            {/* <Route path="" element={<Home3 codename="zenit" />} /> */}
+            {/* <Route path="" element={<Home3 codename="khar" />} /> */}
+            <Route path="" element={<Home3 codename="arch" />} />
+          </Route>
           <Route path="/template4/">
             {/* <Route path="" element={<Home4 codename="armat" />} /> */}
             {/* <Route path="" element={<Home4 codename="zenit" />} /> */}
-            <Route path="" element={<Home4 codename="mod" />} />
+            {/* <Route path="" element={<Home4 codename="mod" />} /> */}
           </Route>
         </Routes>
       </MyContext.Provider>

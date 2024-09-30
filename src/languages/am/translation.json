@@ -261,5 +261,25 @@
         "4": "էքստերիեր Դիզայն (Անհատական)"
       }
     }
+  },
+  "arch": {
+    "paints": {
+      "primary": "#0A0B0D",
+      "secondary": "#ED0008",
+      "thirdly": "#787878"
+    },
+    "hero": {
+      "title": "Comfort & Beauty",
+      "paragraph": "Հանգստություն, նրբաճաշակություն և հարմարավետություն...",
+      "right": {
+        "list": {
+          "1": "Bedrooms",
+          "2": "Kitchens",
+          "3": "Bathrooms",
+          "4": "Offices",
+          "5": "Living Rooms"
+        }
+      }
+    }
   }
 }

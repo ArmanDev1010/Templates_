@@ -57,10 +57,9 @@ const ScrollDown = ({ codename }) => {
                 {t(`${codename}.hero.right.list.${text}`)}
               </h3>
               <div
-                className="absolute bottom-7 left-5 bg-[var(--primary-color)] text-white w-[250px] py-5 rounded-full transition duration-300 group-hover:bg-[var(--secondary-color)] group-hover:-translate-y-5 group-hover:translate-x-5"
+                className="absolute bottom-7 left-5 bg-[var(--primary-color)] text-white border-2 border-black w-[250px] py-5 rounded-full transition duration-300 group-hover:bg-white group-hover:-translate-y-5 group-hover:translate-x-5"
                 style={{
-                  "--primary-color": t(`${codename}.paints.primary`),
-                  "--secondary-color": t(`${codename}.paints.secondary`),
+                  "--primary-color": t(`${codename}.paints.primary`)
                 }}
               >
                 <div className="relative overflow-hidden text-center text-xl font-[500]">

@@ -22,6 +22,7 @@ const ThumbsGallery = ({ codename }) => {
           delay: 3000,
           disableOnInteraction: false,
         }}
+        speed={900}
         loop={true}
         thumbs={{
           swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,

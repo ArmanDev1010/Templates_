@@ -12,9 +12,9 @@ const Left = ({ codename }) => {
     <div className="relative w-[75%] h-full">
       <div className="absolute z-[2] px-[5%]">
         <img
-          src={`/src/assets/template3/logos/${codename}.png`}
+          src={`/src/assets/logos/${codename}.png`}
           alt="logo"
-          className="w-[130px]"
+          className="w-[140px]"
         />
       </div>
       <div className="text-white absolute z-[3] px-[5%] top-[40%] transform -translate-y-[40%]">
