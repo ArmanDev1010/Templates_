@@ -21,8 +21,8 @@ const Left = ({ codename }) => {
             className="cursor-pointer absolute top-0 left-14"
           />
           <div className=""></div>
-          <ul className="flex items-center gap-12">
-            {["projects", "about", "contact_short"].map((text, key) => (
+          <ul className="flex items-center gap-10">
+            {["projects", "courses", "contact_short"].map((text, key) => (
               <li
                 key={key}
                 className="text-xl font-[500] cursor-pointer translate duration-300 hover:opacity-50"
@@ -85,9 +85,9 @@ const Left = ({ codename }) => {
         }}
         className="w-full h-full flex-[1_1_auto] flex flex-col gap-8"
       >
-        {/* <h3 className="clip_top_bottom leading-[1.3] relative left-5 text-3xl font-[500] pointer-events-none before:content-[''] before:absolute before:bg-black before:w-[2px] before:h-[150%] before:top-1/2 before:-translate-y-1/2 before:-left-5">
-          {t(`regulars.links.our_courses`)}
-        </h3> */}
+        <h3 className="clip_top_bottom leading-[1.3] relative left-5 text-3xl font-[500] pointer-events-none before:content-[''] before:absolute before:bg-black before:w-[2px] before:h-[150%] before:top-1/2 before:-translate-y-1/2 before:-left-5">
+          {t(`regulars.links.courses`)}
+        </h3>
         <SwiperHero codename={codename} />
       </motion.div>
     </div>

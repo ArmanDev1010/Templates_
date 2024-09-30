@@ -39,16 +39,16 @@ const SwiperHero = ({ codename }) => {
             }}
           >
             <div
-              className="absolute bottom-0 pl-5 bg-white h-[90px] py-7 transition duration-300 w-full group-hover:bg-[var(--primary-color)] group-hover:-translate-y-4"
+              className="absolute bottom-0 pl-5 bg-white h-[90px] py-7 transition duration-300 w-full group-hover:bg-[var(--primary-color)] group-hover:-translate-y-[17px]"
               style={{
                 "--primary-color": t(`${codename}.paints.secondary`),
               }}
             >
-              <div className="relative overflow-hidden text-center text-[23px] font-[500]">
+              <div className="relative overflow-hidden text-center text-[25px] font-[500]">
                 <div className="group-hover:translate-y-[-110%] transition duration-300">
                   {t(`${codename}.hero.carousel.${text}`)}
                 </div>
-                <div className="text-black translate-y-[110%] group-hover:translate-y-[0%] transition duration-300 absolute top-0 bottom-0 left-0 right-0">
+                <div className="text-white translate-y-[110%] group-hover:translate-y-[0%] transition duration-300 absolute top-0 bottom-0 left-0 right-0">
                   {t(`regulars.button.learn`)}
                 </div>
               </div>

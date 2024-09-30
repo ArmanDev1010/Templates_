@@ -58,13 +58,13 @@ const ThumbsGallery = ({ codename }) => {
                   visible: { opacity: 1, y: 0 },
                   hidden: { opacity: 0, y: 100 },
                 }}
-                className="absolute z-[3] w-full bottom-12 flex items-center justify-between px-12"
+                className="absolute z-[3] w-full bottom-12 flex items-center justify-between gap-16 px-12"
               >
-                <p className="relative text-3xl font-[500] capitalize text-white pointer-events-none before:content-[''] before:absolute before:bg-white before:w-[2px] before:h-[180%] before:top-1/2 before:-translate-y-1/2 before:-left-5">
+                <p className="relative text-2xl font-[500] capitalize text-white pointer-events-none before:content-[''] before:absolute before:bg-white before:w-[2px] before:h-[140%] before:top-1/2 before:-translate-y-1/2 before:-left-5">
                   {t(`${codename}.hero.swiper.${text}.bottom`)}
                 </p>
                 <div
-                  className="group bg-[var(--secondary-color)] text-black cursor-pointer w-[250px] py-5 rounded-full transition duration-300 hover:bg-white hover:-translate-y-3 hover:-translate-x-3"
+                  className="group bg-white text-black border-2 cursor-pointer min-w-[250px] py-5 rounded-full transition duration-300 hover:bg-[var(--secondary-color)] hover:-translate-y-3 hover:-translate-x-3"
                   style={{
                     "--secondary-color": t(`${codename}.paints.secondary`),
                   }}
@@ -73,7 +73,7 @@ const ThumbsGallery = ({ codename }) => {
                     <div className="group-hover:translate-y-[-110%] transition duration-300">
                       {t(`regulars.button.see_more`)}
                     </div>
-                    <div className="text-black translate-y-[110%] group-hover:translate-y-[0%] transition duration-300 absolute top-0 bottom-0 left-0 right-0">
+                    <div className="text-white translate-y-[110%] group-hover:translate-y-[0%] transition duration-300 absolute top-0 bottom-0 left-0 right-0">
                       {t(`regulars.button.see_more`)}
                     </div>
                   </div>
@@ -120,9 +120,8 @@ const ThumbsGallery = ({ codename }) => {
                   {t(`${codename}.hero.swiper.${text}.top`)}
                 </p>
                 <div
-                  className="absolute bottom-0 left-0 bg-[var(--primary-color)] w-[55px] h-[55px] rounded-full text-white text-4xl duration-200 ease group-hover:bg-[var(--secondary-color)] group-hover:text-black group-hover:-translate-y-2 group-hover:translate-x-2 flex justify-center items-center rotate-[-135deg]"
+                  className="absolute bottom-0 left-0 bg-[var(--secondary-color)] w-[55px] h-[55px] rounded-full text-white text-4xl duration-200 ease group-hover:-translate-y-2 group-hover:translate-x-2 flex justify-center items-center rotate-[-135deg]"
                   style={{
-                    "--primary-color": t(`${codename}.paints.primary`),
                     "--secondary-color": t(`${codename}.paints.secondary`),
                   }}
                 >
