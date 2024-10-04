@@ -3,21 +3,11 @@ export default {
   content: ["./src/**/*.{html,js,jsx,json}"],
   theme: {
     extend: {
-      colors: {
-        primary: {
-          wizzy: "#C5212C",
-          pulse: "#F0AE00",
-          chroma: "#F4F4F4",
-        },
-        secondary: {
-          wizzy: "#72A5DA",
-          pulse: "#000000",
-          chroma: "#222222",
-        },
-        thirdly: { wizzy: "#ED5560", pulse: "#f7b505", chroma: "#787878" },
-      },
+      colors: {},
       fontFamily: {
         montserratarm: ["Montserratarm", "sans-serif"],
+        montserrateng: ["Montserrateng", "sans-serif"],
+        neogrotesk: ["Neogrotesk", "sans-serif"],
       },
     },
     screens: {

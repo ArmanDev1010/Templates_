@@ -34,6 +34,49 @@
   src: url("./fonts/montserratarm/Montserratarm-Light.otf") format("otf");
 }
 
+@font-face {
+  font-family: "Montserrateng";
+  font-weight: normal;
+  src: url("./fonts/montserrateng/static/Montserrat-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrateng";
+  font-weight: medium;
+  src: url("./fonts/montserrateng/static/Montserrat-Medium.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrateng";
+  font-weight: bold;
+  src: url("./fonts/montserrateng/static/Montserrat-Bold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrateng";
+  font-weight: bolder;
+  src: url("./fonts/montserrateng/static/Montserrat-Black.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrateng";
+  font-weight: semibold;
+  src: url("./fonts/montserrateng/static/Montserrat-SemiBold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrateng";
+  font-weight: lighter;
+  src: url("./fonts/montserrateng/static/Montserrat-Light.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Neogrotesk";
+  font-weight: medium;
+  src: url("./fonts/neogrotesk/Fontspring-DEMO-neogroteskes.otf") format("otf");
+}
+
 * {
   scroll-behavior: smooth;
 }
@@ -238,3 +281,21 @@ img.blacknwhite:hover {
 }
 
 /* Template 4 End*/
+
+/* Template 5 Start*/
+
+.linebtn:after,
+.linebtn:before {
+  transition: width 0.5s ease;
+}
+
+.borderText {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  text-stroke: 1px #fff;
+  text-shadow: none;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+/* Template 5 End*/

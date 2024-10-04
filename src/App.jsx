@@ -9,7 +9,7 @@ import { MyContext } from "./context/MyContext";
 
 import { Route, Routes } from "react-router-dom";
 
-import { Home, Home2, Home3, Home4 } from "./pages";
+import { Home, Home2, Home3, Home4, Home5 } from "./pages";
 
 const resources = {
   am: {
@@ -59,12 +59,15 @@ const App = () => {
             {/* <Route path="" element={<Home3 codename="fly" />} /> */}
             {/* <Route path="" element={<Home3 codename="zenit" />} /> */}
             {/* <Route path="" element={<Home3 codename="khar" />} /> */}
-            <Route path="" element={<Home3 codename="arch" />} />
+            {/* <Route path="" element={<Home3 codename="arch" />} /> */}
           </Route>
           <Route path="/template4/">
             {/* <Route path="" element={<Home4 codename="armat" />} /> */}
             {/* <Route path="" element={<Home4 codename="zenit" />} /> */}
             {/* <Route path="" element={<Home4 codename="mod" />} /> */}
+          </Route>
+          <Route path="/template5/">
+            <Route path="" element={<Home5 codename="anie" />} />
           </Route>
         </Routes>
       </MyContext.Provider>
