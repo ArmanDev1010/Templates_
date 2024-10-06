@@ -8,18 +8,18 @@ const Navbar = ({ codename }) => {
 
   return (
     <div className="relative z-[2] flex justify-between items-center">
-      <div className="flex items-center gap-36 py-4">
+      <div className="flex items-center gap-36">
         <div className="flex items-center gap-4 cursor-pointer">
           <img
             src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            className="absolute -top-10 w-[140px] cursor-pointer"
+            className="w-[180px] cursor-pointer"
           />
-          {/* <p className="font-neogrotesk text-2xl uppercase font-[500] tracking-[3px]">
+          {/* <p className="font-neogrotesk text-3xl uppercase font-[500] tracking-[3px]">
             {t(`${codename}.hero.logo`)}
           </p> */}
         </div>
-        <ul className="pl-36 flex items-center gap-12">
+        <ul className="flex items-center gap-12">
           {["projects", "about", "contact_short"].map((text, key) => (
             <li
               key={key}

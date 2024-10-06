@@ -310,5 +310,19 @@
       },
       "logo": "KN Design Studio "
     }
+  },
+  "look": {
+    "hero": {
+      "location": "Երևան",
+      "phone": "+374 077 76 77 13",
+      "email": "lookarchcompany@gmail.com",
+      "swiper": {
+        "1": "Modern House Design",
+        "2": "Master Bedroom Design",
+        "3": "Living Room Design",
+        "4": "Kitchen & Living Room"
+      },
+      "logo": "Houzen"
+    }
   }
 }
