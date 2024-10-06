@@ -322,6 +322,20 @@
         "3": "Living Room Design",
         "4": "Kitchen & Living Room"
       },
+      "logo": ""
+    }
+  },
+  "kult": {
+    "hero": {
+      "location": "Երևան, 3/1 Փավստոս Բուզանդ",
+      "phone": "+374 044 77 70 12",
+      "email": "info@kulthome.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Bedroom Designs",
+        "3": "Living Room Designs",
+        "4": "Kitchen Designs"
+      },
       "logo": "Houzen"
     }
   }
