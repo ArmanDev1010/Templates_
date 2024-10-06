@@ -308,7 +308,7 @@
         "3": "Bathroom Design",
         "4": "Kitchen & Living Room"
       },
-      "logo": "KN Design Studio "
+      "logo": "KN Design Studio"
     }
   },
   "look": {
@@ -336,7 +336,21 @@
         "3": "Living Room Designs",
         "4": "Kitchen Designs"
       },
-      "logo": "Houzen"
+      "logo": ""
+    }
+  },
+  "absolute": {
+    "hero": {
+      "location": "Տերյան 3ա",
+      "phone": "+374 041 33 33 21",
+      "email": "info@absolutedc.am",
+      "swiper": {
+        "1": "Living Room Designs",
+        "2": "Master Bedroom Design",
+        "3": "Office Designs",
+        "4": "conference Space Designs"
+      },
+      "logo": ""
     }
   }
 }
