@@ -366,5 +366,19 @@
       },
       "logo": ""
     }
+  },
+  "cubit": {
+    "hero": {
+      "location": "Հովսեփ Էմին 62",
+      "phone": "+374 055 56 57 77",
+      "email": "cubitstudio.contact@gmail.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Bedroom Designs",
+        "3": "Kitchen Designs",
+        "4": "Childrens Room Designs"
+      },
+      "logo": ""
+    }
   }
 }
