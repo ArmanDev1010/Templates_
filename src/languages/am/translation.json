@@ -380,5 +380,19 @@
       },
       "logo": ""
     }
+  },
+  "f9": {
+    "hero": {
+      "location": "Երևան",
+      "phone": "+374 098 87 19 96",
+      "email": "f9.projecct.interior@gmail.com",
+      "swiper": {
+        "1": "Bedroom Designs",
+        "2": "Living Room Designs",
+        "3": "Hallway Designs",
+        "4": "Bathroom Designs"
+      },
+      "logo": ""
+    }
   }
 }
