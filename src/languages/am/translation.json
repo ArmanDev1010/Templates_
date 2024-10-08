@@ -352,5 +352,19 @@
       },
       "logo": ""
     }
+  },
+  "atelier": {
+    "hero": {
+      "location": "Երևան",
+      "phone": "+374 044 54 54 11",
+      "email": "atelier22.interior@gmail.com",
+      "swiper": {
+        "1": "Living Room Designs",
+        "2": "Bedroom Designs",
+        "3": "Kitchen Designs",
+        "4": "Bathroom Designs"
+      },
+      "logo": ""
+    }
   }
 }
