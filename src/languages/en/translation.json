@@ -14,7 +14,7 @@
       "signup": "Գրանցվել",
       "learn": "Իմանալ ավելին",
       "see_projects": " Տեսնել Նախագծերը",
-      "contact": "Make request",
+      "contact": "Make a request",
       "see_more": "Discover More",
       "see_projects_eng": " See Projects",
       "learn_eng": "Learn More"
@@ -36,6 +36,19 @@
         "3": "Residential & Mixed Use",
         "4": "Office Designs",
         "5": "Interior Designs"
+      }
+    }
+  },
+  "raw": {
+    "hero": {
+      "location": "Las Piñas, Philippines, 1747",
+      "phone": "0905 513 6979",
+      "email": "raw.house@yahoo.com",
+      "swiper": {
+        "1": "Bedroom Designs",
+        "2": "House Designs",
+        "3": "Main Living Area",
+        "4": "Kitchen Designs"
       }
     }
   }
