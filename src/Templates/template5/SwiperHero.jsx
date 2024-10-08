@@ -34,14 +34,8 @@ const SwiperHero = ({ codename }) => {
         ref={sliderRef}
         className="relative w-full h-full"
       >
-        {["1", "2", "3", "4"].map((text, key) => (
-          <SwiperSlide
-            key={key}
-            className="w-full h-full bg-cover bg-center bg-no-repeat"
-            style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/src/assets/template5/swiper/${codename}/${text}.jpg)`,
-            }}
-          >
+        {["1", "2", "3", "4", "5"].map((text, key) => (
+          <SwiperSlide key={key} className="w-full h-full">
             <div className="absolute top-[40%] -translate-y-[40%] left-[16%] -translate-x-[16%]">
               <motion.p
                 initial="hidden"
@@ -74,10 +68,16 @@ const SwiperHero = ({ codename }) => {
               </div>
             </div>
             <div
+              className="w-[85%] h-full bg-cover bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/src/assets/template5/swiper/${codename}/${text}.jpg)`,
+              }}
+            ></div>
+            <div
               className="group cursor-pointer absolute z-[1] top-0 right-0 w-[15%] h-full bg-cover bg-no-repeat bg-center"
               style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/src/assets/template5/swiper/${codename}/${
-                  key < 3 ? key + 2 : 1
+                  key < 4 ? key + 2 : 1
                 }.jpg)`,
               }}
               onClick={handleNext}
@@ -99,7 +99,7 @@ const SwiperHero = ({ codename }) => {
               >
                 <p className="mb-3 tracking-[2px]">Next project</p>
                 <p className="borderText tracking-[3px] group-hover:text-white text-[48px] font-[700] capitalize leading-[48px] transform-none">
-                  {t(`${codename}.hero.swiper.${key < 3 ? key + 2 : 1}`)}
+                  {t(`${codename}.hero.swiper.${key < 4 ? key + 2 : 1}`)}
                 </p>
               </motion.div>
             </div>
