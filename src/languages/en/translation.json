@@ -77,5 +77,18 @@
         "4": "Retail & Commercial Designs"
       }
     }
+  },
+  "tatlo": {
+    "hero": {
+      "location": "Makati City, Makati, Philippines",
+      "phone": "09952795023",
+      "email": "hello@tatloconcepts.com",
+      "swiper": {
+        "1": "Bedroom Designs",
+        "2": "House Designs",
+        "3": "Living Room Designs",
+        "4": "Kitchen Designs"
+      }
+    }
   }
 }
