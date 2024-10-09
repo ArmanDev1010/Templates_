@@ -51,5 +51,18 @@
         "4": "Kitchen Designs"
       }
     }
+  },
+  "larcc": {
+    "hero": {
+      "location": "New York St., Veraville Talon 5, Las Pinas City",
+      "phone": "+639491262645",
+      "email": "larccmethods@gmail.com",
+      "swiper": {
+        "1": "House Designs",  
+        "2": "Bedroom Designs",
+        "3": "Main Living Area",
+        "4": "Kitchen & Living Room"
+      }
+    }
   }
 }

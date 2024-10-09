@@ -10,13 +10,13 @@ const Navbar = ({ codename }) => {
     <div className="relative z-[2] flex justify-between items-center">
       <div
         className="flex items-center gap-36"
-        // style={{ padding: "16px 0" }}
+        // style={{ padding: "22px 0" }}
       >
         <div className="flex items-center gap-4 cursor-pointer">
           <img
             src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            className="w-[140px] cursor-pointer"
+            className="w-[120px] cursor-pointer"
             // style={{ position: "absolute", top: "-40px" }}
           />
           {/* <p className="font-neogrotesk text-3xl uppercase font-[500] tracking-[3px]">

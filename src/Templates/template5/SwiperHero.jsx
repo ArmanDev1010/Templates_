@@ -73,13 +73,13 @@ const SwiperHero = ({ codename }) => {
             <div
               className="w-[85%] h-full bg-cover bg-center bg-no-repeat"
               style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/src/assets/template5/swiper/${codename}/${text}.jpg)`,
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/src/assets/template5/${codename}/${text}.jpg)`,
               }}
             ></div>
             <div
               className="group cursor-pointer absolute z-[1] top-0 right-0 w-[15%] h-full bg-cover bg-no-repeat bg-center"
               style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/src/assets/template5/swiper/${codename}/${
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/src/assets/template5/${codename}/${
                   key < 3 ? key + 2 : 1
                 }.jpg)`,
               }}
