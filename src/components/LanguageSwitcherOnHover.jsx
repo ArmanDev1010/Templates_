@@ -23,7 +23,7 @@ const LanguageSwitcherOnHover = () => {
         className="absolute capitalize -translate-y-[40%] opacity-0 transition-all duration-700 ease"
         style={isHidden ? { transform: "translateY(0%)", opacity: "1" } : null}
       >
-        {["ph", "en", ""].map((text, key) => (
+        {["th", "en", ""].map((text, key) => (
           <li
             key={key}
             className="cursor-pointer opacity-70 py-1 transition-opacity duration-300 hover:opacity-90"
