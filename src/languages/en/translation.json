@@ -103,5 +103,18 @@
         "4": "Main Living Area"
       }
     }
+  },
+  "watsuk": {
+    "hero": {
+      "location": "Chon Buri, Thailand",
+      "phone": "+66 97 153 5103",
+      "email": "watsuk.architect@gmail.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Office + Warehouse Designs",
+        "4": "Villa Resort Designs"
+      }
+    }
   }
 }
