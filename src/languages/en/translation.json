@@ -58,7 +58,7 @@
       "phone": "+639491262645",
       "email": "larccmethods@gmail.com",
       "swiper": {
-        "1": "House Designs",  
+        "1": "House Designs",
         "2": "Bedroom Designs",
         "3": "Main Living Area",
         "4": "Kitchen & Living Room"
@@ -88,6 +88,19 @@
         "2": "House Designs",
         "3": "Living Room Designs",
         "4": "Kitchen Designs"
+      }
+    }
+  },
+  "schedio": {
+    "hero": {
+      "location": "Sumulong Highway, Antipolo, Philippines",
+      "phone": "",
+      "email": "bermido.architects@gmail.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Bedroom Designs",
+        "3": "Modern House Designs",
+        "4": "Main Living Area"
       }
     }
   }
