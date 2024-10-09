@@ -64,5 +64,18 @@
         "4": "Kitchen & Living Room"
       }
     }
+  },
+  "blank": {
+    "hero": {
+      "location": "Marikina City, Philippines",
+      "phone": "(+632) 8651-3216",
+      "email": "blankspacearchitecture@gmail.com",
+      "swiper": {
+        "1": "Exterior Designs",
+        "2": "Interior Designs",
+        "3": "Healthcare Designs",
+        "4": "Retail & Commercial Designs"
+      }
+    }
   }
 }
