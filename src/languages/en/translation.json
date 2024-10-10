@@ -207,5 +207,18 @@
         "4": "Commercial Designs"
       }
     }
+  },
+  "toby": {
+    "hero": {
+      "location": "Thailand Bangkok",
+      "phone": "064-174-1471",
+      "email": "info.tobylenomade@gmail.com",
+      "swiper": {
+        "1": "Bedroom Designs",
+        "2": "House Designs",
+        "3": "Living Room Designs",
+        "4": "Kitchen Designs"
+      }
+    }
   }
 }
