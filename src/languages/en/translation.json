@@ -181,5 +181,18 @@
         "4": "Singnle Story Houses"
       }
     }
+  },
+  "v2": {
+    "hero": {
+      "location": "Thailand Bangkok",
+      "phone": "+66 62 263 2998",
+      "email": "v2in@v2inarchitects.com",
+      "swiper": {
+        "1": "Modern House Designs",
+        "2": "Bedroom Designs",
+        "3": "House Designs",
+        "4": "Kitchen Designs"
+      }
+    }
   }
 }
