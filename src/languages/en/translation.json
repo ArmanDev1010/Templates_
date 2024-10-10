@@ -155,5 +155,18 @@
         "4": "Multiple Story Houses"
       }
     }
+  },
+  "ldn": {
+    "hero": {
+      "location": "Amphoe Lam Luk Ka, Thailand, Pathum Thani",
+      "phone": "+66 83 078 1776",
+      "email": "info@ldnarchitect.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Commercial Designs",
+        "4": "Singnle Story Houses"
+      }
+    }
   }
 }
