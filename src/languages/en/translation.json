@@ -129,5 +129,18 @@
         "4": "Canvas House Design"
       }
     }
+  },
+  "plearn": {
+    "hero": {
+      "location": "Bangkok",
+      "phone": "0653964563",
+      "email": "Plearnspacestudio@gmail.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Bedroom Designs",
+        "3": "Living Room Designs",
+        "4": "Bathroom Designs"
+      }
+    }
   }
 }
