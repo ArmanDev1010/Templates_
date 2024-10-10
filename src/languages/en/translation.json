@@ -220,5 +220,18 @@
         "4": "Kitchen Designs"
       }
     }
+  },
+  "91": {
+    "hero": {
+      "location": "Thailand Bangkok",
+      "phone": "+66 81 294 9991",
+      "email": "91s.interior.design@gmail.com",
+      "swiper": {
+        "1": "Bedroom Designs",
+        "2": "House Designs",
+        "3": "Living Room Designs",
+        "4": "Kitchen Designs"
+      }
+    }
   }
 }
