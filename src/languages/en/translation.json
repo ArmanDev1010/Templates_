@@ -272,5 +272,18 @@
         "4": "Office Space Designs"
       }
     }
+  },
+  "qoon": {
+    "hero": {
+      "location": "Thailand Bangkok",
+      "phone": "+66 98 928 9393",
+      "email": "qoon.interior.studio@gmail.com",
+      "swiper": {
+        "1": "Bedroom Designs",
+        "2": "Living Room Designs",
+        "3": "Kitchen Designs",
+        "4": "Closet Storage Designs"
+      }
+    }
   }
 }
