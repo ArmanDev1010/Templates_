@@ -194,5 +194,18 @@
         "4": "Kitchen Designs"
       }
     }
+  },
+  "mental": {
+    "hero": {
+      "location": "Thailand Bangkok",
+      "phone": "+66 98 886 7072",
+      "email": "v2in@v2inarchitects.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Modern House Designs",
+        "4": "Commercial Designs"
+      }
+    }
   }
 }
