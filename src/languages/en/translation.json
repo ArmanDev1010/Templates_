@@ -142,5 +142,18 @@
         "4": "Bathroom Designs"
       }
     }
+  },
+  "houser": {
+    "hero": {
+      "location": "Bangkok Thailand",
+      "phone": "0653964563",
+      "email": "houserarchitect@gmail.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Modern House Designs",
+        "4": "Multiple Story Houses"
+      }
+    }
   }
 }
