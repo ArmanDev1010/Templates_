@@ -246,5 +246,18 @@
         "4": "Bathroom Designs"
       }
     }
+  },
+  "laor": {
+    "hero": {
+      "location": "Thailand Bangkok",
+      "phone": "+66 94 747 9245",
+      "email": "Laordesignstudioo@gmail.com",
+      "swiper": {
+        "1": "Bedroom Designs",
+        "2": "Living Room Designs",
+        "3": "Commercial Designs",
+        "4": "Kitchen Designs"
+      }
+    }
   }
 }
