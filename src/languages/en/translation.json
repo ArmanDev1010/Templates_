@@ -168,5 +168,18 @@
         "4": "Singnle Story Houses"
       }
     }
+  },
+  "archita": {
+    "hero": {
+      "location": "Thailand Bangkok",
+      "phone": "+66 83 924 9345",
+      "email": "artistudio.th@gmail.com",
+      "swiper": {
+        "1": "Modern House Designs",
+        "2": "House Designs",
+        "3": "Interior Designs",
+        "4": "Singnle Story Houses"
+      }
+    }
   }
 }
