@@ -298,5 +298,18 @@
         "4": "Multiple Story Home Designs"
       }
     }
+  },
+  "willa": {
+    "hero": {
+      "location": "Bangkok, Thailand",
+      "phone": "+66 88 619 5260",
+      "email": "willainterior.th@gmail.com",
+      "swiper": {
+        "1": "Bedroom Designs",
+        "2": "Living Room Designs",
+        "3": "Exterior Designs",
+        "4": "Kitchen Designs"
+      }
+    }
   }
 }
