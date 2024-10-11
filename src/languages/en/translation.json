@@ -285,5 +285,18 @@
         "4": "Closet Storage Designs"
       }
     }
+  },
+  "jump": {
+    "hero": {
+      "location": "Phuket, Thailand",
+      "phone": "+66 98 018 1755",
+      "email": "architect.jumpen@gmail.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Commercial Designs",
+        "4": "Multiple Story Home Designs"
+      }
+    }
   }
 }

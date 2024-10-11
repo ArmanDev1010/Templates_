@@ -94,7 +94,8 @@ const App = () => {
             {/* <Route path="" element={<Home5 codename="moy" />} /> */}
             {/* <Route path="" element={<Home5 codename="laor" />} /> */}
             {/* <Route path="" element={<Home5 codename="ish" />} /> */}
-            <Route path="" element={<Home5 codename="qoon" />} />
+            {/* <Route path="" element={<Home5 codename="qoon" />} /> */}
+            <Route path="" element={<Home5 codename="jump" />} />
           </Route>
         </Routes>
       </MyContext.Provider>
