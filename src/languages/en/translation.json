@@ -311,5 +311,18 @@
         "4": "Kitchen Designs"
       }
     }
+  },
+  "nnine": {
+    "hero": {
+      "location": "Bangkok, Thailand",
+      "phone": "+66 98 464 5426",
+      "email": "nninedesign9@gmail.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Building Designs",
+        "4": "Exterior Designs"
+      }
+    }
   }
 }
