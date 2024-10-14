@@ -16,7 +16,7 @@ const Navbar = ({ codename }) => {
           <img
             src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            className="w-[90px] cursor-pointer"
+            className="w-[190px] cursor-pointer"
             // style={{ position: "absolute", top: "-40px" }}
           />
           {/* <p className="font-neogrotesk text-3xl uppercase font-[500] tracking-[3px]">
