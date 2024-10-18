@@ -364,5 +364,19 @@
       },
       "logo": "STUDIO 3 ARCHITECTURE"
     }
+  },
+  "desg": {
+    "hero": {
+      "location": "170 53rd Street, Suite 327, Brooklyn, New York",
+      "phone": "+1 646-543-7515",
+      "email": "info@thedesignersgroup.com",
+      "swiper": {
+        "1": "Interior Designs",
+        "2": "Retail Designs",
+        "3": "Exterior Designs",
+        "4": "Healthcare Designs"
+      },
+      "logo": "STUDIO 3 ARCHITECTURE"
+    }
   }
 }

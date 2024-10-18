@@ -10,14 +10,14 @@ const Navbar = ({ codename }) => {
     <div className="relative z-[2] flex justify-between items-center">
       <div
         className="flex items-center gap-36"
-        // style={{ padding: "22px 0" }}
+        style={{ padding: "30px 0" }}
       >
         <div className="flex items-center gap-4 cursor-pointer">
           <img
             src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            className="w-[180px] cursor-pointer"
-            // style={{ position: "absolute", top: "-40px" }}
+            className="w-[90px] cursor-pointer"
+            style={{ position: "absolute", top: "-20px" }}
           />
           {/* <p className="font-neogrotesk text-3xl uppercase font-[500] tracking-[3px]">
             {t(`${codename}.hero.logo`)}
@@ -25,7 +25,7 @@ const Navbar = ({ codename }) => {
         </div>
         <ul
           className="flex items-center gap-12"
-          // style={{ paddingLeft: "144px" }}
+          style={{ paddingLeft: "144px" }}
         >
           {["projects", "about", "contact_short"].map((text, key) => (
             <li
