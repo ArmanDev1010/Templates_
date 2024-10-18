@@ -378,5 +378,19 @@
       },
       "logo": "STUDIO 3 ARCHITECTURE"
     }
+  },
+  "urbd": {
+    "hero": {
+      "location": "8300 Starnes Rd, North Richland Hills, TX 76182",
+      "phone": "+1 972-538-3579",
+      "email": "hello@urbanologydesigns.com",
+      "swiper": {
+        "1": "Residential Designs",
+        "2": "Commercial Designs",
+        "3": "House Designs",
+        "4": "Interior Designs"
+      },
+      "logo": "Urbanology Designs"
+    }
   }
 }
