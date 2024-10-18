@@ -324,5 +324,31 @@
         "4": "Exterior Designs"
       }
     }
+  },
+  "sip": {
+    "hero": {
+      "location": "Bangkok, Thailand",
+      "phone": "+66 98 464 5426",
+      "email": "nninedesign9@gmail.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Building Designs",
+        "4": "Exterior Designs"
+      }
+    }
+  },
+  "b8": {
+    "hero": {
+      "location": "Al Wasl Dubai, United Arab Emirates",
+      "phone": "+971 45 832 924",
+      "email": "weare@b8architecture.com",
+      "swiper": {
+        "1": "Architecture Designs",
+        "2": "Interior Designs",
+        "3": "House Designs",
+        "4": "Garage Designs"
+      }
+    }
   }
 }
