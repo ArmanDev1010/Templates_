@@ -350,5 +350,19 @@
         "4": "Garage Designs"
       }
     }
+  },
+  "stud3": {
+    "hero": {
+      "location": "Marikina, Philippines",
+      "phone": "+63 917 324 8824",
+      "email": "studio3.designgroup@gmail.com",
+      "swiper": {
+        "1": "Architecture Designs",
+        "2": "Building Designs",
+        "3": "House Designs",
+        "4": "Commercial Designs"
+      },
+      "logo": "STUDIO 3 ARCHITECTURE"
+    }
   }
 }
