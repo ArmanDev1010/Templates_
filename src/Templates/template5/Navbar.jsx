@@ -14,9 +14,9 @@ const Navbar = ({ codename }) => {
       >
         <div className="flex items-center gap-4 cursor-pointer">
           <img
-            src={`https://greerinteriordesign.com/img/greer-logo.svg`}
+            src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            className="w-[170px] cursor-pointer"
+            className="w-[120px] cursor-pointer"
             // style={{ position: "absolute", top: "-20px" }}
           />
           {/* <p className="font-neogrotesk text-3xl uppercase font-[500] tracking-[3px]">

@@ -431,5 +431,18 @@
         "4": "Exterior Designs"
       }
     }
+  },
+  "atlas": {
+    "hero": {
+      "location": "Philadelphia PA, USA",
+      "phone": "+1 848-334-5303",
+      "email": "Contact@atlasdesignstructures.com",
+      "swiper": {
+        "1": "Pavilion Structures",
+        "2": "Architectural Features",
+        "3": "Carport Structures",
+        "4": "Pergolas Structures"
+      }
+    }
   }
 }
