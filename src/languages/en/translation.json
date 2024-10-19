@@ -418,5 +418,18 @@
         "4": "Commercial Designs"
       }
     }
+  },
+  "greer": {
+    "hero": {
+      "location": "1600 Nueces St, Austin, TX 78701, USA",
+      "phone": "+1 512-279-0804",
+      "email": "info@kellecontine.com",
+      "swiper": {
+        "1": "Interior Designs",
+        "2": "Architectual Designs",
+        "3": "Residential Designs",
+        "4": "Exterior Designs"
+      }
+    }
   }
 }
