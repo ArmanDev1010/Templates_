@@ -405,5 +405,18 @@
         "4": "Residential Designs"
       }
     }
+  },
+  "kcid": {
+    "hero": {
+      "location": "2307 Thornton Road, Suite 205 Austin, Texas 78704",
+      "phone": "+1 512-279-0804",
+      "email": "info@kellecontine.com",
+      "swiper": {
+        "1": "Interior Designs",
+        "2": "Architectual Designs",
+        "3": "Residential Designs",
+        "4": "Commercial Designs"
+      }
+    }
   }
 }
