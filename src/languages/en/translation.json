@@ -392,5 +392,18 @@
       },
       "logo": "Urbanology Designs"
     }
+  },
+  "ud": {
+    "hero": {
+      "location": "Austin, TX, United States, Texas",
+      "phone": "+1 512-522-6035",
+      "email": "jlove@urbanedesignstudios.com",
+      "swiper": {
+        "1": "Interior Designs",
+        "2": "Commercial Designs",
+        "3": "Exterior Designs",
+        "4": "Residential Designs"
+      }
+    }
   }
 }
