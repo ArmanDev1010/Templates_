@@ -433,5 +433,18 @@
         "4": "𝑨𝒓𝒄𝒉𝒊𝒕𝒆𝒄𝒕𝒖𝒂𝒍 𝑫𝒆𝒔𝒊𝒈𝒏𝒔"
       }
     }
+  },
+  "evn": {
+    "hero": {
+      "location": "Երևան, Հայաստան",
+      "phone": "+374 043 24 42 34",
+      "email": "evn.design.interior@gmail.com",
+      "swiper": {
+        "1": "Interior Designs",
+        "2": "Commercial Designs",
+        "3": "Resedential Designs",
+        "4": "Exterior Designs"
+      }
+    }
   }
 }
