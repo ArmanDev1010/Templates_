@@ -446,5 +446,18 @@
         "4": "Exterior Designs"
       }
     }
+  },
+  "mitq": {
+    "hero": {
+      "location": "Երևան, Հայաստան",
+      "phone": "+374 044 998825",
+      "email": "mitqdesign@gmail.com",
+      "swiper": {
+        "1": "Architectual Designs",
+        "2": "Interior Designs",
+        "3": "Modern House Designs",
+        "4": "Residential District Designs"
+      }
+    }
   }
 }
