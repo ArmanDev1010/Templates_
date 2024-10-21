@@ -483,5 +483,18 @@
         "4": "Modern House Designs"
       }
     }
+  },
+  "sens": {
+    "hero": {
+      "location": "Malaysia",
+      "phone": "+60 12-584 9705",
+      "email": "senswell.design@gmail.com",
+      "swiper": {
+        "1": "Bedroom Designs",
+        "2": "Commercial Designs",
+        "3": "Living Room Designs",
+        "4": "Kicthen Designs"
+      }
+    }
   }
 }
