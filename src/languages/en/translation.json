@@ -457,5 +457,18 @@
         "4": "House Designs"
       }
     }
+  },
+  "atla": {
+    "hero": {
+      "location": "Penang, Malaysia",
+      "phone": "+60 13-778 7881",
+      "email": "hello.atlasdesign@gmail.com",
+      "swiper": {
+        "1": "Living Room Designs",
+        "2": "Bedroom Designs",
+        "3": "Kitchen Designs",
+        "4": "Bathroom Designs"
+      }
+    }
   }
 }
