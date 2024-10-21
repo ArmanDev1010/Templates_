@@ -496,5 +496,19 @@
         "4": "Kicthen Designs"
       }
     }
+  },
+  "biia": {
+    "hero": {
+      "location": "Brazil",
+      "phone": "+55 85 98882-1003",
+      "email": "dias_beatriz@hotmail.com",
+      "swiper": {
+        "1": "Interior Designs",
+        "2": "Architectual Designs",
+        "3": "Residential Designs",
+        "4": "Commercial Designs"
+      },
+      "logo": "Biia Sales"
+    }
   }
 }
