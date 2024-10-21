@@ -470,5 +470,18 @@
         "4": "Bathroom Designs"
       }
     }
+  },
+  "archv": {
+    "hero": {
+      "location": "Cebu City, Philippines · Manila, Philippines",
+      "phone": "+63 928 934 4204",
+      "email": "archvision.ads@gmail.com",
+      "swiper": {
+        "1": "Architectual Designs",
+        "2": "House Designs",
+        "3": "Commercial Designs",
+        "4": "Modern House Designs"
+      }
+    }
   }
 }
