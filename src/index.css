@@ -176,6 +176,31 @@ body {
   font-style: italic;
 }
 
+/* .span_h2-gradient-colors.blue_ {
+  background-image: linear-gradient(
+    90deg,
+    rgba(2,251,229),
+    rgba(2,251,229),
+    rgba(2,251,229)
+  );
+} */
+
+.dot {
+  position: relative;
+}
+
+.dot::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #02FBE5;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50px;
+}
+
 .span_h2-gradient-colors.black_ {
   background-image: linear-gradient(
     90deg,

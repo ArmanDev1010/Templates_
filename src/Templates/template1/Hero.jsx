@@ -27,7 +27,7 @@ const Hero = ({ codename }) => {
                   visible: { opacity: 1, y: 0 },
                   hidden: { opacity: 0, y: 100 },
                 }}
-                className="clip_top_bottom text-[4.6rem] leading-[1.7] font-[600] mb-8 whitespace-pre"
+                className="text-[4.6rem] text-[#222] leading-[1.5] font-[600] mb-4 whitespace-pre"
                 dangerouslySetInnerHTML={{
                   __html: t(`${codename}.hero.title`),
                 }}
@@ -45,7 +45,7 @@ const Hero = ({ codename }) => {
                   visible: { opacity: 1, y: 0 },
                   hidden: { opacity: 0, y: 100 },
                 }}
-                className="text-[21px] text-gray-500 font-[500] mb-10"
+                className="text-[24px] text-gray-500 font-[500] mb-8"
               >
                 {t(`${codename}.hero.paragraph`)}
               </motion.p>
@@ -64,16 +64,16 @@ const Hero = ({ codename }) => {
                     hidden: { opacity: 0, y: 100 },
                   }}
                   className="group w-fit py-[1.25rem] px-[4rem] capitilize rounded-[50vw] border-[3px] border-[#e3e3e3] text-xl font-[500] bg-no-rpeeat 
-                hover:border-[var(--primary-color)] hover:saturate-[180%]"
+                hover:border-[var(--secondary-color)] hover:saturate-[180%]"
                   style={{
-                    "--secondary-color": t(
-                      `${codename}.paints.secondary`
-                    ),
                     "--primary-color": t(
-                      `${codename}.paints.primary`
+                      `${codename}.colors.primary`
                     ),
-                    background: `radial-gradient(110.56% 100% at 50% 0%, #FFF 61.77%, ${t(
-                      `${codename}.paints.secondary`
+                    "--secondary-color": t(
+                      `${codename}.colors.secondary`
+                    ),
+                    background: `radial-gradient(110.56% 100% at 50% 0%, #FFF 70%, ${t(
+                      `${codename}.colors.primary`
                     )} 150%)`,
                     transition:
                       "filter .2s cubic-bezier(.77,0,.175,1), border .2s cubic-bezier(.77,0,.175,1)",
@@ -81,10 +81,10 @@ const Hero = ({ codename }) => {
                 >
                   <div className="relative overflow-hidden">
                     <div className="group-hover:translate-y-[-110%] transition duration-300">
-                      {t(`regulars.button.signup`)}
+                      {t(`regulars.button.learn`)}
                     </div>
                     <div className="text-black translate-y-[110%] group-hover:translate-y-[0%] transition duration-300 absolute top-0 bottom-0 left-0 right-0">
-                      {t(`regulars.button.signup`)}
+                      {t(`regulars.button.learn`)}
                     </div>
                   </div>
                 </motion.button>
@@ -98,9 +98,8 @@ const Hero = ({ codename }) => {
         <div
           className="absolute z-[-3] top-0 left-0 w-full h-full"
           style={{
-            //  backgroundImage: `url(${mySvg})`
             backgroundImage:
-              "radial-gradient(circle, rgba(114,165,218,0.1) 41%, rgba(255,255,255,1) 100%)",
+              `radial-gradient(circle, rgba(${t(`${codename}.colors.primary_rgba`)},0.03) 41%, rgba(255,255,255,1) 100%)`,
           }}
         ></div>
         <div

@@ -8,7 +8,8 @@
       "contact_short": "Կապ",
       "portfolio": "Պորտֆոլիո",
       "our_courses": "Մեր Դասընթացները",
-      "projects": "Նախագծեր"
+      "projects": "Նախագծեր",
+      "services": "Ծառայություններ"
     },
     "button": {
       "signup": "Գրանցվել",
@@ -457,6 +458,24 @@
         "2": "Interior Designs",
         "3": "Modern House Designs",
         "4": "Residential District Designs"
+      }
+    }
+  },
+  "spin": {
+    "colors": {
+      "primary_rgba": "2,251,229",
+      "primary": "#02FBE5",
+      "secondary": "#000"
+    },
+    "hero": {
+      "title": "SP<span class='dot'>i</span>N YOUR <span class='dot'>i</span>DEAS & WE WILL\nSP<span class='dot'>i</span>N YOUR BUSINESS",
+      "paragraph": "You Relax We Work",
+      "carousel": {
+        "1": "Video Production",
+        "2": "Marketing & Creative Campaigns",
+        "3": "YouTube Producing ",
+        "4": "Content Creation",
+        "5": "Branding"
       }
     }
   }

@@ -26,7 +26,7 @@ const SwiperHero = ({ codename }) => {
         visible: { opacity: 1, y: 0 },
         hidden: { opacity: 0, y: 100 },
       }}
-      className="w-full h-[450px] my-16"
+      className="w-full h-[450px] my-12"
     >
       <Swiper
         slidesPerView={"4"}
@@ -36,7 +36,7 @@ const SwiperHero = ({ codename }) => {
           disableOnInteraction: false,
         }}
         loop={true}
-        speed={2000}
+        speed={1000}
         pagination={true}
         modules={[Autoplay]}
         className="mySwiperHome relative w-full h-full"
@@ -52,18 +52,18 @@ const SwiperHero = ({ codename }) => {
             <div
               className="wrap w-full h-full bg-[#e3e3e3] bg-cover bg-center bg-no-repeat transition-bg duration-300 ease-in-out group-hover:scale-[1.1]"
               style={{
-                backgroundImage: `url(/src/assets/template1/carousel/${text}.jpg)`,
+                backgroundImage: `url(/src/assets/template1/${codename}/${text}.jpg)`,
               }}
             >
               <div
-                className="absolute bottom-0 pl-5 bg-white h-[90px] py-7 transition duration-300 w-full group-hover:bg-[var(--primary-color)] group-hover:-translate-y-5"
+                className="absolute bottom-0 bg-white h-[90px] py-7 transition duration-300 w-full group-hover:bg-[var(--primary-color)] group-hover:-translate-y-5"
                 style={{
                   "--primary-color": t(
-                    `${codename}.paints.secondary`
+                    `${codename}.colors.primary`
                   ),
                 }}
               >
-                <div className="relative overflow-hidden text-center text-2xl font-[500]">
+                <div className="relative overflow-hidden text-center text-[22px] font-[500]">
                   <div className="group-hover:translate-y-[-110%] transition duration-300">
                     {t(`${codename}.hero.carousel.${text}`)}
                   </div>
