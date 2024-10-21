@@ -444,5 +444,18 @@
         "4": "Pergolas Structures"
       }
     }
+  },
+  "rrsa": {
+    "hero": {
+      "location": "2 Wilson Street, Lahug, Cebu City, Philippines",
+      "phone": "+63 917 329 7678",
+      "email": "rrsarchitecture@gmail.com",
+      "swiper": {
+        "1": "Architectual Designs",
+        "2": "Interior Designs",
+        "3": "Building Designs",
+        "4": "House Designs"
+      }
+    }
   }
 }
