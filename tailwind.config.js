@@ -8,6 +8,7 @@ export default {
         montserratarm: ["Montserratarm", "sans-serif"],
         montserrateng: ["Montserrateng", "sans-serif"],
         neogrotesk: ["Neogrotesk", "sans-serif"],
+        engravers: ["Engravers", "sans-serif"],
       },
     },
     screens: {

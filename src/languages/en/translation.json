@@ -523,5 +523,18 @@
         "4": "Dining Rooms"
       }
     }
+  },
+  "brainy": {
+    "hero": {
+      "location": "2657 lenox Rd NE",
+      "phone": "+1 404-993-6663",
+      "email": "brainyblueprints@gmail.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Villa Designs",
+        "4": "Architectual Designs"
+      }
+    }
   }
 }

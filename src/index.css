@@ -77,6 +77,13 @@
   src: url("./fonts/neogrotesk/Fontspring-DEMO-neogroteskes.otf") format("otf");
 }
 
+@font-face {
+  font-family: "Engravers";
+  font-weight: bold;
+  src: url("./fonts/engravers/engravers-roman-bt.ttf")
+    format("truetype");
+}
+
 * {
   scroll-behavior: smooth;
 }
@@ -190,11 +197,11 @@ body {
 }
 
 .dot::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 12px;
   height: 12px;
-  background: #02FBE5;
+  background: #02fbe5;
   top: 24px;
   left: 50%;
   transform: translateX(-50%);
