@@ -13,15 +13,15 @@ const Navbar = ({ codename }) => {
         // style={{ padding: "30px 0" }}
       >
         <div className="flex items-center gap-4 cursor-pointer">
-          {/* <img
+          <img
             src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            className="w-[120px] cursor-pointer"
+            className="w-[210px] cursor-pointer"
             // style={{ position: "absolute", top: "-20px" }}
-          /> */}
-          <p className="font-neogrotesk text-4xl uppercase font-[500] tracking-[3px]">
+          />
+          {/* <p className="font-neogrotesk text-4xl uppercase font-[500] tracking-[3px]">
             {t(`${codename}.hero.logo`)}
-          </p>
+          </p> */}
         </div>
         <ul
           className="flex items-center gap-12"

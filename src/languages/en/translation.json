@@ -510,5 +510,18 @@
       },
       "logo": "Biia Sales"
     }
+  },
+  "storie": {
+    "hero": {
+      "location": "Washington D.C, United States",
+      "phone": "+55 85 98882-1003",
+      "email": "hello@storiecollective.com",
+      "swiper": {
+        "1": "Living Room Designs",
+        "2": "Kitchen Designs",
+        "3": "Bathroom Designs",
+        "4": "Dining Rooms"
+      }
+    }
   }
 }

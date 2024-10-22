@@ -49,7 +49,7 @@ const App = () => {
         <Routes>
           <Route path="/template1/">
             {/* <Route path="" element={<Home codename="wizzy" />} /> */}
-            <Route path="" element={<Home codename="spin" />} />
+            {/* <Route path="" element={<Home codename="spin" />} /> */}
           </Route>
           <Route path="/template2/">
             {/*<Route path="" element={<Home2 codename="pulse" />} />*/}
@@ -118,6 +118,7 @@ const App = () => {
             {/* <Route path="" element={<Home5 codename="archv" />} /> */}
             {/* <Route path="" element={<Home5 codename="sens" />} /> */}
             {/* <Route path="" element={<Home5 codename="biia" />} /> */}
+            <Route path="" element={<Home5 codename="storie" />} />
           </Route>
         </Routes>
       </MyContext.Provider>
