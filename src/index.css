@@ -330,4 +330,16 @@ img.blacknwhite:hover {
   transition: color 0.5s ease;
 }
 
+.borderText_logo {
+  font-weight: 700;
+  z-index: 10000;
+  font-size: 5vw;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  text-stroke: 1px #fff;
+  text-shadow: none;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
 /* Template 5 End*/

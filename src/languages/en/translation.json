@@ -536,5 +536,18 @@
         "4": "Architectual Designs"
       }
     }
+  },
+  "sapphire": {
+    "hero": {
+      "location": "775 Industrial Ct. Bloomfield Hills, MI 48302",
+      "phone": "+1 248-930-9300",
+      "email": "info@homesbysapphire.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Villa Designs",
+        "4": "Architectual Designs"
+      }
+    }
   }
 }
