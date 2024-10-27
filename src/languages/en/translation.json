@@ -544,16 +544,16 @@
       "paragraph_two": "Fill out the form below if you want to order the project, ask for prices, or get an offer. Our manager will contact you as soon as possible to clarify all the details."
     }
   },
-  "sapphire": {
+  "amber": {
     "hero": {
-      "location": "775 Industrial Ct. Bloomfield Hills, MI 48302",
-      "phone": "+1 248-930-9300",
-      "email": "info@homesbysapphire.com",
+      "location": "Los Angeles, California",
+      "phone": "+1 404-993-6663",
+      "email": "hello@amberinteriordesign.com",
       "swiper": {
-        "1": "House Designs",
-        "2": "Interior Designs",
-        "3": "Villa Designs",
-        "4": "Architectual Designs"
+        "1": "Interior Designs",
+        "2": "Bedroom Designs",
+        "3": "Kitchen Designs",
+        "4": "Bathroom Designs"
       }
     }
   }

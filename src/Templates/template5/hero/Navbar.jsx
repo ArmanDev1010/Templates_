@@ -13,8 +13,8 @@ const Navbar = ({ codename }) => {
           <img
             src={`/src/assets/logos/${codename}.png`}
             alt={codename}
-            className="w-[150px] cursor-pointer"
-            style={{ position: "absolute", top: "-40px" }}
+            className="w-[450px] cursor-pointer"
+            // style={{ position: "absolute", top: "-40px" }}
           />
           {/* <p className="font-neogrotesk text-4xl uppercase font-[500] tracking-[3px]">
             {t(`${codename}.hero.logo`)}
