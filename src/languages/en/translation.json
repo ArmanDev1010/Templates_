@@ -582,5 +582,19 @@
         "4": "House Designs"
       }
     }
+  },
+  "mhstud": {
+    "hero": {
+      "location": "London",
+      "phone": "+44 7932 825854",
+      "email": "info@hafeziarchitects.com",
+      "swiper": {
+        "1": "House Designs",
+        "2": "Interior Designs",
+        "3": "Rendering",
+        "4": "A.I Services"
+      },
+      "logo": "M.H Studio"
+    }
   }
 }
