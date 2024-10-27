@@ -44,7 +44,7 @@ const BottomHero = ({ codename }) => {
                 {["fb", "In", "be", "pi"].map((text, key) => (
                   <li
                     key={key}
-                    className="capitalize font-[500] text-[15px] cursor-pointer transition-opacity duration-200 hover:opacity-70"
+                    className="capitalize font-[600] text-[15px] cursor-pointer transition-opacity duration-200 hover:opacity-70"
                   >
                     {text}
                   </li>
@@ -53,7 +53,7 @@ const BottomHero = ({ codename }) => {
             ) : text == "location" ? (
               <div
                 className="rounded-full py-1.5 px-5 border border-white cursor-pointer flex items-center gap-3 font-[500]
-            bg-white/40 ring-1 ring-black/5 transition-bg duration-200 hover:bg-white/60"
+            bg-white/40 ring-1 ring-black/5 transition-bg duration-300 hover:bg-white/50"
               >
                 <IoLocationSharp className="text-[17px]" />
                 <span className="capitalize">
@@ -61,7 +61,7 @@ const BottomHero = ({ codename }) => {
                 </span>
               </div>
             ) : (
-              <p className="font-[500] tracking-[1px] text-[15px] cursor-pointer transition-opacity duration-200 hover:opacity-70">
+              <p className="font-[600] tracking-[1px] text-[15px] cursor-pointer transition-opacity duration-200 hover:opacity-70">
                 {t(`${codename}.hero.${text}`)}
               </p>
             )}

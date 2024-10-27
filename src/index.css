@@ -80,8 +80,7 @@
 @font-face {
   font-family: "Engravers";
   font-weight: bold;
-  src: url("./fonts/engravers/engravers-roman-bt.ttf")
-    format("truetype");
+  src: url("./fonts/engravers/engravers-roman-bt.ttf") format("truetype");
 }
 
 * {
@@ -340,6 +339,24 @@ img.blacknwhite:hover {
   text-shadow: none;
   -webkit-transition: color 0.5s ease;
   transition: color 0.5s ease;
+}
+
+.main-cursor {
+  position: fixed;
+  pointer-events: none;
+  width: 359px;
+  height: 359px;
+  background-color: #fff;
+  border-radius: 50%;
+  mix-blend-mode: overlay;
+  -webkit-filter: blur(141px);
+  filter: blur(141px);
+  pointer-events: none;
+  transform: translate3d(0, 0, 0);
+  z-index: 1000000000000000000000000;
+  opacity: 0.8;
+  -webkit-transition: opacity 1.2s ease;
+  transition: opacity 1.2s ease;
 }
 
 /* Template 5 End*/

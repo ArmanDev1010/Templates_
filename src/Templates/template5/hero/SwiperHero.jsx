@@ -35,10 +35,7 @@ const SwiperHero = ({ codename }) => {
         className="relative w-full h-full"
       >
         {["1", "2", "3", "4"].map((text, key) => (
-          <SwiperSlide
-            key={key}
-            className="w-full h-full"
-          >
+          <SwiperSlide key={key} className="w-full h-full">
             <div className="absolute top-[40%] -translate-y-[40%] left-[16%] -translate-x-[16%]">
               <motion.p
                 initial="hidden"
@@ -53,7 +50,7 @@ const SwiperHero = ({ codename }) => {
                   visible: { opacity: 1, y: 0 },
                   hidden: { opacity: 0, y: 50 },
                 }}
-                className="!font-montserrateng text-[3.7rem] leading-[1.4] font-[600] capitalize whitespace-pre mb-7 pointer-events-none"
+                className="text-[3.7rem] leading-[1.4] font-[600] capitalize whitespace-pre mb-7 pointer-events-none"
               >
                 {t(`${codename}.hero.swiper.${text}`)}
               </motion.p>
@@ -97,11 +94,11 @@ const SwiperHero = ({ codename }) => {
                   visible: { opacity: 1 },
                   hidden: { opacity: 0 },
                 }}
-                className="!font-montserrateng absolute bottom-[-20px] left-1/2 w-[400px] h-fit 
+                className="absolute bottom-[-20px] left-1/2 w-[400px] h-fit 
               -rotate-90 origin-[left_center]"
               >
-                <p className="mb-3 tracking-[2px]">Next project</p>
-                <p className="borderText tracking-[3px] group-hover:text-white text-[48px] font-[700] capitalize leading-[48px] transform-none">
+                <p className="!font-montserrateng mb-3 tracking-[2px]">Next project</p>
+                <p className="!font-montserrat borderText tracking-[3px] group-hover:text-white text-[48px] font-[700] capitalize leading-[48px] transform-none">
                   {t(`${codename}.hero.swiper.${key < 3 ? key + 2 : 1}`)}
                 </p>
               </motion.div>

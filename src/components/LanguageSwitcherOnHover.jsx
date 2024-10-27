@@ -14,7 +14,7 @@ const LanguageSwitcherOnHover = () => {
 
   return (
     <div
-      className="relative"
+      className="!font-montserrateng relative"
       onMouseEnter={() => setHidden(true)}
       onMouseLeave={() => setHidden(false)}
     >

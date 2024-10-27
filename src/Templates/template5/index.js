@@ -1,7 +1,8 @@
-import Hero from "./Hero";
-import Navbar from "./Navbar";
-import BottomHero from "./BottomHero";
-import SwiperHero from "./SwiperHero";
-import ImageTrail from "./ImageTrail";
+import Hero from "./hero/Hero";
+import Navbar from "./hero/Navbar";
+import BottomHero from "./hero/BottomHero";
+import SwiperHero from "./hero/SwiperHero";
+import ImageTrail from "./imageTrail/ImageTrail";
+import Projects from "./projects/Projects";
 
-export { Hero, Navbar, BottomHero, SwiperHero, ImageTrail };
+export { Hero, Navbar, BottomHero, SwiperHero, ImageTrail, Projects };

@@ -8,7 +8,8 @@
       "contact_short": "Contact",
       "portfolio": "Պորտֆոլիո",
       "our_courses": "Մեր Դասընթացները",
-      "projects": "Projects"
+      "projects": "Projects",
+      "our_projects": "Our Projects"
     },
     "button": {
       "signup": "Գրանցվել",
@@ -535,6 +536,12 @@
         "3": "Villa Designs",
         "4": "Architectual Designs"
       }
+    },
+    "image_trails": {
+      "social_media_tag": "@brainyblueprints",
+      "title": "Crafting inspiring residential & commercial spaces",
+      "paragraph_one": "We released more than 150 commercial and private projects all around the world, providing our clients with custom solutions in stylish, functional, and well-thought-out designs.",
+      "paragraph_two": "Fill out the form below if you want to order the project, ask for prices, or get an offer. Our manager will contact you as soon as possible to clarify all the details."
     }
   },
   "sapphire": {
