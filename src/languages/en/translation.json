@@ -569,5 +569,18 @@
         "4": "Modern Designs"
       }
     }
+  },
+  "kbuild": {
+    "hero": {
+      "location": "Missouri, United States",
+      "phone": "+1 636-362-2015",
+      "email": "kbuild@kbuildit.com",
+      "swiper": {
+        "1": "Custom Builds",
+        "2": "Remodels",
+        "3": "Commercial Designs",
+        "4": "House Designs"
+      }
+    }
   }
 }

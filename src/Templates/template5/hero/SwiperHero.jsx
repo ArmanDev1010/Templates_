@@ -43,12 +43,12 @@ const SwiperHero = ({ codename }) => {
                 viewport={{ once: true }}
                 transition={{
                   ease: "easeIn",
-                  y: { duration: 0.4, delay: 0.3 },
-                  opacity: { delay: 0.3 },
+                  y: { duration: 0.5, delay: 0.4 },
+                  opacity: { delay: 0.5 },
                 }}
                 variants={{
                   visible: { opacity: 1, y: 0 },
-                  hidden: { opacity: 0, y: 50 },
+                  hidden: { opacity: 0, y: 60 },
                 }}
                 className="text-[3.7rem] leading-[1.4] font-[600] capitalize whitespace-pre mb-7 pointer-events-none"
               >
@@ -98,7 +98,7 @@ const SwiperHero = ({ codename }) => {
               -rotate-90 origin-[left_center]"
               >
                 <p className="!font-montserrateng mb-3 tracking-[2px]">Next project</p>
-                <p className="!font-montserrat borderText tracking-[3px] group-hover:text-white text-[48px] font-[700] capitalize leading-[48px] transform-none">
+                <p className="!font-montserrateng borderText tracking-[3px] group-hover:text-white text-[48px] font-[700] capitalize leading-[48px] transform-none">
                   {t(`${codename}.hero.swiper.${key < 3 ? key + 2 : 1}`)}
                 </p>
               </motion.div>
