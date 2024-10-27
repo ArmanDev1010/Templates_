@@ -552,8 +552,21 @@
       "swiper": {
         "1": "Interior Designs",
         "2": "Bedroom Designs",
-        "3": "Kitchen Designs",
+        "3": "Interior Designs",
         "4": "Bathroom Designs"
+      }
+    }
+  },
+  "azd": {
+    "hero": {
+      "location": "United States",
+      "phone": "+1 404-993-6663",
+      "email": "kevin@azdarch.com",
+      "swiper": {
+        "1": "Residential Designs",
+        "2": "Interior Designs",
+        "3": "Commercial Designs",
+        "4": "Modern Designs"
       }
     }
   }
