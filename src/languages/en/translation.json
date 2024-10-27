@@ -596,5 +596,19 @@
       },
       "logo": "M.H Studio"
     }
+  },
+  "blanc": {
+    "hero": {
+      "location": "Montreal, Canada",
+      "phone": "+1 514-613-2077",
+      "email": "info@blancmarine.ca",
+      "swiper": {
+        "1": "Interior Design",
+        "2": "Redesigns",
+        "3": "Styling",
+        "4": "Complete home design"
+      },
+      "logo": "M.H Studio"
+    }
   }
 }
