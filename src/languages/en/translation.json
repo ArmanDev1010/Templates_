@@ -607,8 +607,21 @@
         "2": "Redesigns",
         "3": "Styling",
         "4": "Complete home design"
+      }
+    }
+  },
+  "danib": {
+    "hero": {
+      "location": "Brazil",
+      "phone": "+55 21 97314-8455",
+      "email": "orcamento.danibarrosoarquiteta@gmail.com",
+      "swiper": {
+        "1": "Interior Design",
+        "2": "Redesigns",
+        "3": "Architecture",
+        "4": "Styling"
       },
-      "logo": "M.H Studio"
+      "logo": "D.B Arquitetura"
     }
   }
 }
