@@ -637,5 +637,19 @@
       },
       "logo": "@abdullahaslanoglu_"
     }
+  },
+  "nat": {
+    "hero": {
+      "location": "Brazil",
+      "phone": "+55 31988723661",
+      "email": "contatonatb.arq@gmail.com",
+      "swiper": {
+        "1": "Interior",
+        "2": "Architecture",
+        "3": "Redesigns",
+        "4": "Commercial"
+      },
+      "logo": "@natb.arq"
+    }
   }
 }
