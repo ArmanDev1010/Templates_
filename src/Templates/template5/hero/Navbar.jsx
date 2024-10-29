@@ -16,7 +16,7 @@ const Navbar = ({ codename }) => {
             className="w-[300px] cursor-pointer"
             // style={{ position: "absolute", top: "-40px" }}
           /> */}
-          <p className="font-neogrotesk text-4xl uppercase font-[500] tracking-[3px]">
+          <p className="font-neogrotesk text-3xl font-[500] tracking-[3px]">
             {t(`${codename}.hero.logo`)}
           </p>
         </div>

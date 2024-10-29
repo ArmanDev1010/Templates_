@@ -623,5 +623,19 @@
       },
       "logo": "D.B Arquitetura"
     }
+  },
+  "abdul": {
+    "hero": {
+      "location": "Turkey",
+      "phone": "+55 21 97314-8455",
+      "email": "aslanogluabdullah@gmail.com",
+      "swiper": {
+        "1": "Architecture",
+        "2": "Redesigns",
+        "3": "Interior",
+        "4": "Commercial"
+      },
+      "logo": "@abdullahaslanoglu_"
+    }
   }
 }
