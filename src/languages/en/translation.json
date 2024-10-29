@@ -651,5 +651,19 @@
       },
       "logo": "@natb.arq"
     }
+  },
+  "laylaa": {
+    "hero": {
+      "location": "Iran",
+      "phone": "+989214867223",
+      "email": "leylaasgari110@gmail.com",
+      "swiper": {
+        "1": "Interior",
+        "2": "Architecture",
+        "3": "Redesigns",
+        "4": "Commercial"
+      },
+      "logo": "@laylaa_asgarii"
+    }
   }
 }
