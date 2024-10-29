@@ -665,5 +665,17 @@
       },
       "logo": "@laylaa_asgarii"
     }
+  },
+  "stud783": {
+    "hero": {
+      "email": "hi.studio783@gmail.com",
+      "swiper": {
+        "1": "Architecture",
+        "2": "Interior",
+        "3": "Commercial",
+        "4": "Cabins"
+      },
+      "logo": "@studio7.83"
+    }
   }
 }
