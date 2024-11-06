@@ -52,7 +52,7 @@ const App = () => {
             {/* <Route path="" element={<Home codename="spin" />} /> */}
           </Route>
           <Route path="/template2/">
-            {/*<Route path="" element={<Home2 codename="pulse" />} />*/}
+            {/* <Route path="" element={<Home2 codename="pulse" />} /> */}
           </Route>
           <Route path="/template3/">
             {/* <Route path="" element={<Home3 codename="chroma" />} /> */}
@@ -60,7 +60,6 @@ const App = () => {
             {/* <Route path="" element={<Home3 codename="fly" />} /> */}
             {/* <Route path="" element={<Home3 codename="zenit" />} /> */}
             {/* <Route path="" element={<Home3 codename="khar" />} /> */}
-            {/* <Route path="" element={<Home3 codename="arch" />} /> */}
           </Route>
           <Route path="/template4/">
             {/* <Route path="" element={<Home4 codename="armat" />} /> */}
@@ -129,7 +128,8 @@ const App = () => {
             {/* <Route path="" element={<Home5 codename="abdul" />} /> */}
             {/* <Route path="" element={<Home5 codename="nat" />} /> */}
             {/* <Route path="" element={<Home5 codename="laylaa" />} /> */}
-            <Route path="" element={<Home5 codename="stud783" />} />
+            {/* <Route path="" element={<Home5 codename="stud783" />} /> */}
+            <Route path="" element={<Home5 codename="aifor" />} />
           </Route>
         </Routes>
       </MyContext.Provider>

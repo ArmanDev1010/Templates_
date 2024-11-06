@@ -677,5 +677,17 @@
       },
       "logo": "@studio7.83"
     }
+  },
+  "aifor": {
+    "hero": {
+      "email": "info@aiforarchitects.co",
+      "swiper": {
+        "1": "Architecture Designs",
+        "2": "Interior Design",
+        "3": "Concept Design",
+        "4": "Landscape Design"
+      },
+      "logo": "@aiforarchitects"
+    }
   }
 }

@@ -14,7 +14,6 @@ const Projects = ({ codename }) => {
       <p className="!font-montserrateng px-[64px] text-[46px] uppercase font-[600] pointer-events-none">
         {t("regulars.links.our_projects")}
       </p>
-
     </div>
   );
 };

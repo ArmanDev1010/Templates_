@@ -57,7 +57,7 @@ const ScrollDown = ({ codename }) => {
                 {t(`${codename}.hero.right.list.${text}`)}
               </h3>
               <div
-                className="absolute bottom-7 left-5 bg-[var(--primary-color)] text-white border-2 border-black w-[250px] py-5 rounded-full transition duration-300 group-hover:bg-white group-hover:-translate-y-5 group-hover:translate-x-5"
+                className="absolute bottom-7 left-5 bg-black text-white border-2 border-black w-[250px] py-5 rounded-full transition duration-300 group-hover:bg-white group-hover:-translate-y-5 group-hover:translate-x-5"
                 style={{
                   "--primary-color": t(`${codename}.paints.primary`)
                 }}
