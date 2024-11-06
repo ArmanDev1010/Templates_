@@ -715,5 +715,18 @@
       },
       "logo": "@baptistebohu"
     }
+  },
+  "nacrt": {
+    "hero": {
+      "location": "Serbia, Canada, Italy",
+      "email": "office@studionacrt.com",
+      "swiper": {
+        "1": "Interior",
+        "2": "3D Visualization",
+        "3": "Commercial",
+        "4": "Exterior"
+      },
+      "logo": "@baptistebohu"
+    }
   }
 }
