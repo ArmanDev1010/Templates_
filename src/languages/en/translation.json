@@ -702,5 +702,18 @@
       },
       "logo": "@vishnu_xo"
     }
+  },
+  "baptis": {
+    "hero": {
+      "location": "Worldwide",
+      "email": "baptiste@baptistebohudesign.com",
+      "swiper": {
+        "1": "Architecture",
+        "2": "Interior",
+        "3": "Commercial",
+        "4": "Exterior"
+      },
+      "logo": "@baptistebohu"
+    }
   }
 }
