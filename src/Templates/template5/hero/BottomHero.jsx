@@ -37,7 +37,7 @@ const BottomHero = ({ codename }) => {
         animate="visible"
         className="flex gap-28 items-center"
       >
-        {["socials", "email"].map((text, key) => (
+        {["socials", "location", "number"].map((text, key) => (
           <motion.li key={key} variants={item} className="">
             {text == "socials" ? (
               <ul className="flex gap-5">

@@ -689,5 +689,18 @@
       },
       "logo": "@aiforarchitects"
     }
+  },
+  "vishnu": {
+    "hero": {
+      "number": "+971 557943014",
+      "location": "Worldwide",
+      "swiper": {
+        "1": "Interior Design",
+        "2": "3D Visualization",
+        "3": "Walkthrough Animation",
+        "4": "Commercial Designs"
+      },
+      "logo": "@vishnu_xo"
+    }
   }
 }
