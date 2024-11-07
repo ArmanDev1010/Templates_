@@ -741,5 +741,19 @@
         "4": "Other Projects"
       }
     }
+  },
+  "stephen": {
+    "hero": {
+      "location": "Worldwide",
+      "email": "info@b3-design.co.uk",
+      "phone": "+380 93 437 1663",
+      "swiper": {
+        "1": "Architectural Design",
+        "2": "Interior Design",
+        "3": "Commercial Design",
+        "4": "Residential Design"
+      },
+      "logo": "@stephents3d"
+    }
   }
 }
