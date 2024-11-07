@@ -27,7 +27,7 @@ const Hero = ({ codename }) => {
                   visible: { opacity: 1, y: 0 },
                   hidden: { opacity: 0, y: 100 },
                 }}
-                className="text-[4.6rem] text-[#222] leading-[1.5] font-[600] mb-7 whitespace-pre"
+                className="text-[4.6rem] text-[#222] leading-[1.5] font-[600] mb-7 whitespace-pre pointer-events-none"
                 dangerouslySetInnerHTML={{
                   __html: t(`${codename}.hero.title`),
                 }}
@@ -45,7 +45,7 @@ const Hero = ({ codename }) => {
                   visible: { opacity: 1, y: 0 },
                   hidden: { opacity: 0, y: 100 },
                 }}
-                className="text-[24px] text-gray-500 font-[500] mb-8"
+                className="text-[24px] text-gray-500 font-[500] mb-8 pointer-events-none"
               >
                 {t(`${codename}.hero.paragraph`)}
               </motion.p>
