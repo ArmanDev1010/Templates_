@@ -144,6 +144,12 @@ body {
   background-clip: text;
 }
 
+.strategy .main_text {
+  color: #0043FE !important;
+  font-weight: 600;
+  font-style: italic;
+}
+
 .span_h2-gradient {
   webkit-text-fill-color: transparent;
   background: linear-gradient(

@@ -9,11 +9,14 @@ const Navbar = ({ codename }) => {
   return (
     <div className="relative px-[5%] mb-[1rem]">
       <div className="max-w-[1680px] mx-auto my-0">
-        <div className="flex items-center justify-between py-[40px]">
+        <div
+          className="flex items-center justify-between py-[40px]"
+          style={{ paddingTop: "30px" }}
+        >
           <img
             src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            className="w-[160px] cursor-pointer"
+            className="w-[120px] cursor-pointer"
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <ul className="flex gap-14">

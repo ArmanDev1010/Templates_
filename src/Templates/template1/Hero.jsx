@@ -27,7 +27,7 @@ const Hero = ({ codename }) => {
                   visible: { opacity: 1, y: 0 },
                   hidden: { opacity: 0, y: 100 },
                 }}
-                className="text-[4.6rem] text-[#222] leading-[1.5] font-[600] mb-4 whitespace-pre"
+                className="text-[4.6rem] text-[#222] leading-[1.5] font-[600] mb-7 whitespace-pre"
                 dangerouslySetInnerHTML={{
                   __html: t(`${codename}.hero.title`),
                 }}
@@ -67,13 +67,13 @@ const Hero = ({ codename }) => {
                 hover:border-[var(--secondary-color)] hover:saturate-[180%]"
                   style={{
                     "--primary-color": t(
-                      `${codename}.colors.primary`
+                      `${codename}.paints.primary`
                     ),
                     "--secondary-color": t(
-                      `${codename}.colors.secondary`
+                      `${codename}.paints.secondary`
                     ),
                     background: `radial-gradient(110.56% 100% at 50% 0%, #FFF 70%, ${t(
-                      `${codename}.colors.primary`
+                      `${codename}.paints.primary`
                     )} 150%)`,
                     transition:
                       "filter .2s cubic-bezier(.77,0,.175,1), border .2s cubic-bezier(.77,0,.175,1)",
@@ -99,7 +99,7 @@ const Hero = ({ codename }) => {
           className="absolute z-[-3] top-0 left-0 w-full h-full"
           style={{
             backgroundImage:
-              `radial-gradient(circle, rgba(${t(`${codename}.colors.primary_rgba`)},0.03) 41%, rgba(255,255,255,1) 100%)`,
+              `radial-gradient(circle, rgba(${t(`${codename}.paints.primary_rgba`)},0.03) 41%, rgba(255,255,255,1) 100%)`,
           }}
         ></div>
         <div

@@ -478,5 +478,24 @@
         "5": "Branding"
       }
     }
+  },
+  "strategy": {
+    "paints": {
+      "primary": "#0043FE",
+      "secondary": "#FE0000",
+      "thirdly": "#39B44A",
+      "fourthly": "#FFC100"
+    },
+    "hero": {
+      "title": "Սկսի՛ր Զարգացնել <span class='main_text'>Բիզնեսդ</span>",
+      "paragraph": "Բաց մի թողեք ձեր բիզնեսը հաջորդ մակարդակ բարձրացնելու հնարավորությունը",
+      "carousel": {
+        "1": "Digital Marketing",
+        "2": "Graphic, UI/UX Design",
+        "3": "Corporate Branding",
+        "4": "Motion Design",
+        "5": "E-commerce Development"
+      }
+    }
   }
 }

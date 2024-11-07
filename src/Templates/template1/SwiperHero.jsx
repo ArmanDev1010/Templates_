@@ -44,13 +44,13 @@ const SwiperHero = ({ codename }) => {
         {["1", "2", "3", "4", "5"].map((text, key) => (
           <SwiperSlide
             key={key}
-            className="group relative overflow-hidden rounded-2xl cursor-pointer transition-all duration-20 border-[#e3e3e3] border-4 hover:border-[var(--primary-color)]"
+            className="group relative overflow-hidden rounded-2xl cursor-pointer transition-all duration-20 border-[#e3e3e3] border-4 hover:border-[var(--thirdly-color)]"
             style={{
-              "--primary-color": t(`${codename}.paints.primary`),
+              "--thirdly-color": t(`${codename}.paints.thirdly`),
             }}
           >
             <div
-              className="wrap w-full h-full bg-[#e3e3e3] bg-cover bg-center bg-no-repeat transition-bg duration-300 ease-in-out group-hover:scale-[1.1]"
+              className="wrap w-full h-full bg-white bg-contain bg-center bg-no-repeat transition-bg duration-300 ease-in-out group-hover:scale-[1.1]"
               style={{
                 backgroundImage: `url(/src/assets/template1/${codename}/${text}.jpg)`,
               }}
@@ -59,7 +59,7 @@ const SwiperHero = ({ codename }) => {
                 className="absolute bottom-0 bg-white h-[90px] py-7 transition duration-300 w-full group-hover:bg-[var(--primary-color)] group-hover:-translate-y-5"
                 style={{
                   "--primary-color": t(
-                    `${codename}.colors.primary`
+                    `${codename}.paints.primary`
                   ),
                 }}
               >

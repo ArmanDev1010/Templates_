@@ -13,7 +13,7 @@ import {
 
 const Home = ({ codename }) => {
   return (
-    <div className="relative">
+    <div className={`${codename} relative`}>
       <Navbar codename={codename} />
       <Hero codename={codename} />
       <About codename={codename} />
