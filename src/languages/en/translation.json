@@ -728,5 +728,18 @@
       },
       "logo": "@baptistebohu"
     }
+  },
+  "b3": {
+    "hero": {
+      "location": "116-118 Moorfield Road, Widnes",
+      "email": "info@b3-design.co.uk",
+      "phone": "0151 424 3535",
+      "swiper": {
+        "1": "Kitchen Designs",
+        "2": "Bathroom Designs",
+        "3": "Interior Designs",
+        "4": "Other Projects"
+      }
+    }
   }
 }

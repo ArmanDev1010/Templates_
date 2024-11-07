@@ -11,9 +11,9 @@ const Navbar = ({ codename }) => {
       <div className="flex items-center gap-36" style={{ padding: "0px 0" }}>
         <div className="flex items-center gap-4 cursor-pointer">
           <img
-            src={`/src/assets/logos/${codename}.png`}
+            src={`https://www.b3-design.co.uk/wp-content/uploads/2023/09/b3-design-logo.svg`}
             alt={codename}
-            className="w-[120px] cursor-pointer"
+            className="w-[240px] cursor-pointer"
             // style={{ position: "absolute", top: "-40px" }}
           />
           {/* <p className="font-neogrotesk text-3xl font-[500] tracking-[3px]">
