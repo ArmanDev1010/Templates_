@@ -780,5 +780,18 @@
         "4": "Furnishing & Styling"
       }
     }
+  },
+  "shm": {
+    "hero": {
+      "location": "Dallas, Texas | Crested Butte, Colorado",
+      "phone": "214-252-3830",
+      "email": "info@shmarchitects.com",
+      "swiper": {
+        "1": "Architectural Design",
+        "2": "Interior Design",
+        "3": "Ranch + Retreat",
+        "4": "Residential Design"
+      }
+    }
   }
 }
