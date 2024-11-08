@@ -769,5 +769,17 @@
       },
       "logo": "@stephents3d"
     }
+  },
+  "desshop": {
+    "hero": {
+      "location": "Dallas, Texas",
+      "email": "hello@designshopdallas.com",
+      "swiper": {
+        "1": "Architectural Design",
+        "2": "Interior Design",
+        "3": "Material Selection",
+        "4": "Furnishing & Styling"
+      }
+    }
   }
 }
