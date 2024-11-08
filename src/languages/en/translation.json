@@ -805,5 +805,18 @@
         "4": "Kitchen"
       }
     }
+  },
+  "hudson": {
+    "hero": {
+      "location": "4268 W. Lovers Lane  | Dallas, Texas 75209",
+      "phone": "214.926.5095",
+      "email": "Info@hudcg.com",
+      "swiper": {
+        "1": "Architecture",
+        "2": "Interior",
+        "3": "Residential",
+        "4": "Remodels"
+      }
+    }
   }
 }
