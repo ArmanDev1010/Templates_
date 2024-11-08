@@ -692,7 +692,7 @@
   },
   "vishnu": {
     "hero": {
-      "number": "+971 557943014",
+      "phone": "+971 557943014",
       "location": "Worldwide",
       "swiper": {
         "1": "Interior Design",
@@ -756,20 +756,6 @@
       "logo": "@stephents3d"
     }
   },
-  "tierone": {
-    "hero": {
-      "location": "Philippines",
-      "email": "TierOneArchitects@gmail.com",
-      "phone": "+63 994 961 7696",
-      "swiper": {
-        "1": "Architectural Design",
-        "2": "Interior Design",
-        "3": "Commercial Design",
-        "4": "Residential Design"
-      },
-      "logo": "@stephents3d"
-    }
-  },
   "desshop": {
     "hero": {
       "location": "Dallas, Texas",
@@ -778,6 +764,19 @@
         "1": "Architectural Design",
         "2": "Interior Design",
         "3": "Material Selection",
+        "4": "Furnishing & Styling"
+      }
+    }
+  },
+  "studtj": {
+    "hero": {
+      "location": "Dallas, Texas",
+      "phone": "214.484.1849",
+      "email": "info@studiothomasjames.com",
+      "swiper": {
+        "1": "Interior Design",
+        "2": "Architectural Design",
+        "3": "Residential Design",
         "4": "Furnishing & Styling"
       }
     }

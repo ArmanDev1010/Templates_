@@ -12,7 +12,7 @@ const Hero = ({ codename, setHeight }) => {
   return (
     <div
       className="!font-montserrateng relative w-full h-screen bg-gray-700 text-white px-[64px] py-[40px]"
-      // style={{ paddingTop: "30px" }}
+      style={{ paddingTop: "20px" }}
       ref={heroHeight}
     >
       <Navbar codename={codename} />
