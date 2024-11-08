@@ -11,17 +11,16 @@ const Left = ({ codename }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="w-1/2 h-full pt-5 px-10 flex flex-col overflow-hidden">
+    <div className="w-1/2 h-full pt- px-10 flex flex-col overflow-hidden">
       <div className="flex-[0_1_auto]">
-        <div className="flex justify-between items-center mb-14 py-7">
+        <div className="flex justify-between items-center mb-7 py-4">
           <img
             src={`/src/assets/logos/${codename}.png`}
             alt="logo"
-            style={{ width: "140px" }}
-            className="cursor-pointer absolute top-0 left-14"
+            style={{ width: "90px" }}
+            className="cursor-pointer "
           />
-          <div className=""></div>
-          <ul className="flex items-center gap-10">
+          <ul className="flex items-center gap-14">
             {["projects", "courses", "contact_short"].map((text, key) => (
               <li
                 key={key}
@@ -47,7 +46,7 @@ const Left = ({ codename }) => {
               visible: { opacity: 1, x: 0 },
               hidden: { opacity: 0, x: -100 },
             }}
-            className="clip_top_bottom text-[4.6rem] leading-[1.5] font-[600] mb-5 capitalize whitespace-pre"
+            className="clip_top_bottom text-[4.4rem] leading-[1.3] font-[600] mb-5 capitalize whitespace-pre"
           >
             {t(`${codename}.hero.title`)}
           </motion.h2>

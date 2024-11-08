@@ -44,7 +44,7 @@ const SwiperHero = ({ codename }) => {
                 "--primary-color": t(`${codename}.paints.secondary`),
               }}
             >
-              <div className="relative overflow-hidden text-center text-[25px] font-[500]">
+              <div className="relative overflow-hidden text-center text-xl font-[500]">
                 <div className="group-hover:translate-y-[-110%] transition duration-300">
                   {t(`${codename}.hero.carousel.${text}`)}
                 </div>

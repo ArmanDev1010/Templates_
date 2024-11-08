@@ -755,5 +755,19 @@
       },
       "logo": "@stephents3d"
     }
+  },
+  "tierone": {
+    "hero": {
+      "location": "Philippines",
+      "email": "TierOneArchitects@gmail.com",
+      "phone": "+63 994 961 7696",
+      "swiper": {
+        "1": "Architectural Design",
+        "2": "Interior Design",
+        "3": "Commercial Design",
+        "4": "Residential Design"
+      },
+      "logo": "@stephents3d"
+    }
   }
 }
