@@ -8,13 +8,13 @@ const Navbar = ({ codename }) => {
 
   return (
     <div className="relative z-[2] flex justify-between items-center">
-      <div className="flex items-center gap-36" style={{ padding: "25px 0" }}>
+      <div className="flex items-center gap-36" style={{ padding: "30px 0" }}>
         <div className="flex items-center gap-4 cursor-pointer">
           <img
-            src={`/src/assets/logos/${codename}.png`}
+            src={`https://janaschleifinteriors.com/wp-content/uploads/2021/08/1-2.png`}
             alt={codename}
-            className="w-[300px] cursor-pointer"
-            // style={{ position: "absolute", top: "-40px" }}
+            className="w-[130px] cursor-pointer"
+            style={{ position: "absolute", top: "-20px" }}
           />
           {/* <p className="font-neogrotesk text-3xl font-[500] tracking-[3px]">
             {t(`${codename}.hero.logo`)}
@@ -22,7 +22,7 @@ const Navbar = ({ codename }) => {
         </div>
         <ul
           className="flex items-center gap-12"
-          // style={{ paddingLeft: "144px" }}
+          style={{ paddingLeft: "144px" }}
         >
           {["projects", "about", "contact_short"].map((text, key) => (
             <li
