@@ -818,5 +818,18 @@
         "4": "Remodels"
       }
     }
+  },
+  "baring": {
+    "hero": {
+      "location": "5015 W Lovers Lane Dallas, TX 75209",
+      "phone": "(214) 729-8809",
+      "email": "Info@hudcg.com",
+      "swiper": {
+        "1": "Interior",
+        "2": "Architecture",
+        "3": "Residential",
+        "4": "Remodels"
+      }
+    }
   }
 }
